@@ -1,0 +1,156 @@
+.collaps {
+  margin-left: 500px;
+}
+
+.imag {
+  width: 110px;
+  height: 50px;
+  margin-left: 200px;
+}
+
+#projects {
+  background-color: #cacaca;
+}
+
+.projects__row-content-title {
+  font-weight: 800;
+  margin-top: 7px;
+  color: black;
+}
+
+.projects__row-content-desc {
+  color: #666;
+  line-height: 1.7;
+  font-weight: 700;
+  max-width: 70%;
+  margin-left: 100px;
+}
+
+.jekt {
+  display: flex;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.projects__row-img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects__row {
+  padding-bottom: 30px;
+}
+
+.projects__row-img {
+  width: 90%;
+}
+
+.projects__row-content {
+  padding: 1rem 0;
+}
+
+.btn--med {
+  padding: 8px 30px;
+  font-size: 1.5rem;
+  background: #9b37ff;
+  color: black;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15);
+  transition: transform .3s;
+}
+
+.btn--med:hover {
+  transform: translateY(-3px);
+  color: black;
+  text-decoration: none;
+}
+
+.heading-secc__main {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  position: relative;
+  color: #111;
+  top: 70px;
+  padding-top: 30px;
+  font-family: 'Poppins', helvetica;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.heading-sec__sub {
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 991px) {
+  .collaps {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .imag {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-block i {
+    margin-left: 170px;
+  }
+  .imag {
+    margin-left: 30px;
+    width: 150px;
+    height: 70px;
+  }
+
+  .heading-sec__sub {
+    padding-bottom: 200px;
+    font-family: 'Font Awesome 5 Free';  
+    font-size: small;
+    line-height: 2.3;
+  }
+  
+  .projects__row-content-desc {
+    max-width: none;
+    margin-left: -10px;
+  }
+
+  .heading-secc__main {
+    padding-top: 30px;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';  
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+  .jekt {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .projects__row {
+    display: block;
+  }
+
+  .projects__row-content-desc {
+    text-align: center;
+  }
+
+  .projects__row-img {
+    width: 100%;
+  }
+
+  .projects__row {
+    padding-bottom: 30px;
+  }
+
+  .jekt {
+    padding-bottom: 0;
+  }
+}

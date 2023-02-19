@@ -1,0 +1,59 @@
+#services {
+    padding-top: 80px;
+    margin-left: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+.services-block span {
+    margin: 10px 0;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+  }
+
+  .services-block p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 350px;
+    margin-left: 40px;
+  }
+
+  .services-block .i {
+    margin-left: 180px;
+    font-size: 44px;
+    line-height: 44px;
+    color: #9b37ff;
+  }
+
+  .slick-next:before{
+    display: none;
+  }
+
+  .slick-prev:before{
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+
+    #services {
+      padding-bottom: 100px;
+      margin-top: -30px;
+      margin-left: 0;
+      }
+
+      .services-block {
+        margin-left: 5px;
+      }
+    
+      .services-block p {
+        margin-left: 30px;
+      }
+  }

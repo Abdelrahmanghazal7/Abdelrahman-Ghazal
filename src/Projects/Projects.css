@@ -1,0 +1,82 @@
+#portfolio {
+    padding: 20px;
+}
+
+.head{
+color: black;
+font-family: "Poppins", Sans-serif;
+font-size: 150px;
+font-weight: 600;
+line-height: 1.2em;
+margin-left: 100px;
+}
+
+.work {
+    color: #999999;
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    max-width: 500px;
+    margin-left: 100px;
+}
+
+#arrow {
+    width: 300px;
+    opacity: .2;
+    margin-left: 100px;
+}
+
+.view{
+    font-family: "Roboto Mono", Sans-serif;
+    background-color: #9b37ff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 24px;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: black;
+}
+
+.dire{
+    margin-top: 50px;
+}
+
+.view:hover{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .view{
+        padding: 15px 24px;
+        margin-left: 180px;
+        position: absolute;
+        margin-top: -410px;
+    }    
+
+    #arrow {
+        width: 120px;
+        margin-left: 250px;
+        margin-top: -900px;
+    }
+    
+    .head{
+        font-size: 110px;
+        margin-left: 0;
+        }
+        
+    .work {
+        margin-left: 0;
+        }
+        
+    .dire{
+        margin-top: 0;
+        }
+  }
