@@ -3,7 +3,6 @@ import Cursor from '../Cursor';
 import "./Portfolio.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import Nav from '../Navbar/Nav';
 import Gg from '../Gg';
 import GoTop from '../GoTop/GoTop';
 import Contact from '../Contact/Contact';
@@ -15,7 +14,7 @@ const Portfolio = () => {
   }, []);
   return (
     <div>
-      <Cursor />
+      {/* <Cursor /> */}
 
       <Gg />
 

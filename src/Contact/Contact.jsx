@@ -5,10 +5,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import '../Model.css';
 import Modal from '../Model';
+import New from '../New'
 
 const Contact = () => {
 
   const [openModal, setOpenModal] = useState(false);
+  const sendButton = document.getElementById("submit");
+  const popup = document.getElementsByClassName("overlay");
 
   const form = useRef();
 
@@ -32,6 +35,9 @@ const Contact = () => {
 
 
     <div id="contact" className="ppaddsection">
+
+<New /> 
+
       <div className="container">
         <div className="contact-block1">
           <div className="row">

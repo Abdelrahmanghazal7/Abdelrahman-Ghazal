@@ -9,7 +9,7 @@ const Home = () => {
     Aos.init({duration: 1000});
   }, []);
   return (
-        <div>
+        <div className='ser'>
         <div className="us">
       <div id="service" className="paddsection">
         <div className="container">

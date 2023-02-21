@@ -1,6 +1,7 @@
 import React from 'react'
-import Cursor from './Cursor';
-import Navbar from './Navbar/Navbar'
+// import Cursor from './Cursor';
+// import Navbar from './Navbar/Navbar'
+import Test from './Test'
 import Header from './Header/Header'
 import Services from './Services/Services'
 import Slide from "./Slide";
@@ -19,11 +20,13 @@ const App = () => {
 
       {/* <Cursor /> */}
 
-      <Navbar />
+      {/* <Navbar /> */}
+
+      <Test />
 
       <Header />
 
-      {/* <Services /> */}
+      <Services />
 
       <Slide/>
 
@@ -35,7 +38,7 @@ const App = () => {
 
       <About />
 
-      <Contact />
+      <Contact /> 
 
       <Footer />
 

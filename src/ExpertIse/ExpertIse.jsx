@@ -8,7 +8,7 @@ const ExpertIse = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div id='Expertse'>
+    <div id='expertse'>
 
       <div>
         <div data-aos="zoom-in" className='circle'></div>
@@ -31,7 +31,7 @@ const ExpertIse = () => {
           <div id='lol2' class="card">
             <img src="images/4.png" className="card-img-top" alt='' />
             <div class="card-body">
-              <h5 className="card-title">Frontend Dev <br /> React, NextJS</h5>
+              <h5 className="card-title">Frontend Dev <br /> Reactjs</h5>
               <div className='bref'>
                 <p className="card-text">Passionate about UI/UX. Over 2 years of development experience in HTML, CSS, JS, React framework.</p>
               </div>

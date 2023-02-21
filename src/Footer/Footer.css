@@ -1,6 +1,7 @@
 footer {
   background: black;
   padding-top: 50px;
+  overflow: hidden;
 }
 .social {
   color: rgb(95, 95, 95);
@@ -106,7 +107,7 @@ footer p {
   color: #9b37ff;
 }
 
-@media screen and (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:780px) and (max-width:991px) {
 
   .mb-30 {
     padding-bottom: 20px;
@@ -114,29 +115,47 @@ footer p {
 
   .conect {
     padding-top: 10px;
-    margin-left: 130px;
+    position: relative;
+    left: 350px;
+    margin-top: -250px;
   }
-}
-
-@media screen and (max-width:767px) {
 
   .social {
-    margin-left: 130px;
-    margin-top: 20px;
+    margin-left: 150px;
+  }
+  
+  .splash{
+    margin-left: 135px;
   }
 
+  .details{
+    margin-left: -20px;
+  }
+
+  footer .icons {
+    padding: 25px 0;
+    margin-left: 80px;
+  }
+  
+  footer .icons i {
+    font-size: 30px;
+  }
+  
+}
+
+@media screen and (max-width:779px) {
+
+  .social {
+    margin-left: 140px;
+    padding-top: 10px;
+  }
+  
   footer .icons {
     margin-left: 60px;
   }
 
   .splash{
-    margin-top: -35px;
-    margin-left: 115px;
+    margin-top: -45px;
+    margin-left: 125px;
   }
-  
-
-  footer i,
-.right {
-  font-size: 20px;
-}
 }

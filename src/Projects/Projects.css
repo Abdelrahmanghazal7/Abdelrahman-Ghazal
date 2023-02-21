@@ -1,5 +1,6 @@
 #portfolio {
     padding: 20px;
+    overflow: hidden;
 }
 
 .head{
@@ -65,6 +66,38 @@ margin-left: 100px;
         width: 120px;
         margin-left: 250px;
         margin-top: -900px;
+    }
+    
+    .head{
+        font-size: 110px;
+        margin-left: 0;
+        }
+        
+    .work {
+        margin-left: 0;
+        }
+        
+    .dire{
+        margin-top: 0;
+        }
+  }
+
+  @media (max-width: 360px) {
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    
+    .view{
+        padding: 15px 24px;
+        margin-left: 160px;
+        position: absolute;
+        margin-top: -420px;
+    }    
+
+    #arrow {
+        margin-left: 200px;
+        margin-top: -910px;
     }
     
     .head{

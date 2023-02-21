@@ -24,7 +24,7 @@ const GoTop = () => {
   };
 
   return (
-    <>
+    <div className="top">
 
 {showButton && (
 
@@ -34,7 +34,7 @@ const GoTop = () => {
         
       )}
       {/* &#8679; is used to create the upward arrow */}
-    </>
+    </div>
   );
 };
 

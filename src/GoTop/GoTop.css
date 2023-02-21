@@ -1,3 +1,7 @@
+.top{
+  overflow: hidden;
+}
+
 .return-to-top {
   bottom: 20px;
   right: 20px;

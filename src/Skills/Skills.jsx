@@ -9,7 +9,7 @@ const Skills = () => {
   }, []);
   return (
         <div id="skills" className="container py-5">
-            <h1 id='ex' className="text-center fw-normal wow fadeIn">My Skills</h1>
+            <h1 className='skll'>My Skills</h1>
             <div className="row py-3">
               <div className="col-md-6">
                 <div className="px-lg-3">

@@ -3,6 +3,7 @@ import useScrollListener from "../Scroll";
 import "./Navbar.css";
 
 export default function App() {
+
   const [navclassNameNameList, setNavclassNameNameList] = useState([]);
   const scroll = useScrollListener();
 
@@ -20,22 +21,19 @@ export default function App() {
 
     <nav className={navclassNameNameList.join(" ")}>
 
-      <div className="navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-
+      <div class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
 
           <div>
             <img className='image' src="images/logo.png" alt="logo" />
           </div>
 
-
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
 
-
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
               <li className="nav-item">
                 <a className="nav-link" href="#">Home</a>
@@ -45,32 +43,26 @@ export default function App() {
                 <a className="nav-link" href="#service">Service</a>
               </li>
 
-
               <li className="nav-item">
                 <a className="nav-link" href="#portfolio">Portfolio</a>
               </li>
-
-
 
               <li className="nav-item">
                 <a className="nav-link" href="#skills">My Skills</a>
               </li>
 
-
               <li className="nav-item">
                 <a className="nav-link" href="#aboutme">About Me</a>
               </li>
 
-
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
               </li>
+
             </ul>
           </div>
         </div>
       </div>
-
     </nav>
-
   );
 }
