@@ -1,5 +1,6 @@
-.skills{
+#skills{
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .progress {
@@ -45,10 +46,31 @@
   letter-spacing: 0.02em;
 }
 
+@media (max-width: 550px) {
+  #skills{
+  margin-top: -100px;
+}
+}
+
 @media (max-width: 480px) {
 
 #des{
   margin-top: 30px;
 }
-
 }
+
+@media (max-width: 300px) {
+
+  .progress {
+    height: 1.3rem;
+  }
+  
+  .progress-bar {
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: rgb(26, 26, 26);
+    color: #b46aff;
+    font-weight: bolder;
+  }
+  
+  }

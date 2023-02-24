@@ -5,7 +5,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import '../Model.css';
 import Modal from '../Model';
-import New from '../New'
 
 const Contact = () => {
 
@@ -36,7 +35,6 @@ const Contact = () => {
 
     <div id="contact" className="ppaddsection">
 
-<New /> 
 
       <div className="container">
         <div className="contact-block1">
@@ -46,9 +44,9 @@ const Contact = () => {
               <div className="main-container">
                 <h2 className="heading heading-sec
                       heading-sec__mb-med">
-                  <span className="heading-sec__mainn
-                        heading-sec__mainn--lt">Contact</span>
-                  <span className="heading-sec__sub
+                  <span className="heading-sec__main
+                        heading-sec__main--lt"><h1>Contact</h1></span>
+                  <span id='i_t' className="heading-sec__sub
                         heading-sec__sub--lt">
                     Feel free to Contact me by submitting the
                     form below and
@@ -92,7 +90,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div className="col-lg-12">
+                    <div>
 
 
 

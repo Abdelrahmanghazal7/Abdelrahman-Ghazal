@@ -24,7 +24,7 @@ const Footer = () => {
               <div className="left">
                 <i className="fa fa-map-marker"></i>
               </div>
-              <div className="right">Miamy, Eskander Ebrahim Street</div>
+              <div className="right">Egypt - Alexandria</div>
             </div>
 
             <div className="inner">

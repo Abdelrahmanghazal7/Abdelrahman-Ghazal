@@ -107,7 +107,7 @@ footer p {
   color: #9b37ff;
 }
 
-@media screen and (min-width:780px) and (max-width:991px) {
+@media screen and (min-width:760px) and (max-width:991px) {
 
   .mb-30 {
     padding-bottom: 20px;
@@ -143,19 +143,117 @@ footer p {
   
 }
 
-@media screen and (max-width:779px) {
+@media screen and (max-width:759px) {
 
   .social {
-    margin-left: 140px;
+    margin-left: 130px;
     padding-top: 10px;
   }
   
   footer .icons {
-    margin-left: 60px;
+    margin-left: 50px;
   }
 
   .splash{
     margin-top: -45px;
-    margin-left: 125px;
+    margin-left: 118px;
   }
+}
+
+
+@media screen and (max-width:700px) {
+
+  .conect {
+    margin-left: 70px;
+  }
+
+  .details{
+    margin-left: 90px;
+  }
+
+  .mb-30 {
+font-size: 34px;  
+padding-bottom: 20px;
+margin-top: -20px;
+}
+  
+}
+
+@media screen and (max-width:500px) {
+
+  .conect {
+    margin-left: 0;
+  }
+
+  .details{
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width:390px) {
+
+  .social {
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+  
+  footer .icons {
+    margin-left: 30px;
+  }
+
+  footer .icons i {
+    font-size: 25px;
+  }
+
+  .splash{
+    margin-top: -43px;
+    margin-left: 88px;
+  }
+  
+  .mb-30 {
+    padding-bottom: 20px;
+    font-size: 30px;
+  } 
+
+.right {
+  font-size: 19px;
+}
+}
+
+
+@media screen and (max-width:300px) {
+
+  .social {
+    margin-left: 70px;
+    padding-top: 10px;
+    font-size: 27px;
+    margin-bottom: -10px;
+  }
+  
+  footer .icons span a {
+    margin: 0 25px 0 0;
+  }
+
+  footer .icons {
+    margin-left: 35px;
+  }
+
+  footer .icons i {
+    font-size: 21px;
+  }
+
+  .splash{
+    margin-left: 60px;
+    margin-top: -32px;
+    width: 80px;
+  }
+  
+  .mb-30 {
+    font-size: 26px;
+  } 
+
+.right {
+  font-size: 14px;
+}
 }

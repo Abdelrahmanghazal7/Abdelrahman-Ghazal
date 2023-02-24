@@ -7,6 +7,7 @@ import Gg from '../Gg';
 import GoTop from '../GoTop/GoTop';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import New from '../New'
 
 const Portfolio = () => {
   useEffect(() => {
@@ -17,6 +18,9 @@ const Portfolio = () => {
       {/* <Cursor /> */}
 
       <Gg />
+
+      <New /> 
+
 
       <section id="projects" className="projects sec-pad">
         <div className="main-container">

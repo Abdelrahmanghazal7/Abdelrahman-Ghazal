@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 const Projects = () => {
   useEffect(() =>{
     Aos.init({duration: 1000});
@@ -11,7 +12,7 @@ const Projects = () => {
   return (
     <div id='portfolio' className='container-fluid'>      
     <div  className='row'>
-    <div className='col-xl-7 col-md-7 col-sm-7'>
+    <div className='rk col-xl-7 col-md-7 col-sm-7'>
     <h1 data-aos="fade-down" className='head'>My <br/> Work</h1>
 
     <p data-aos="fade-up" className='work'>Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React SPA and PWA.
@@ -25,6 +26,7 @@ Collaborated in 140+ projects with 50+ clients all around the world. I am also i
     <br/>
     <br/>
     <Link className='view' to="/Portfolio">View Projects</Link>
+   
 
     </div>
     </div>

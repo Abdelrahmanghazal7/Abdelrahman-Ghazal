@@ -44,67 +44,6 @@ const Home = () => {
         </div>
       </div>
       </div>
-
-      
-
-
-{/* 
-<div id="services">
-  <div className="container">
-
-    <div className="services-carousel owl-theme">
-
-      <div className="services-block">
-
-        <i className="ion-ios-browsers-outline"></i>
-        <span>UI/UX DESIGN</span>
-        <p className="separator">There are many variations of passages of
-          Lorem Ipsum available</p>
-
-      </div>
-
-      <div className="services-block">
-
-        <i className="ion-ios-lightbulb-outline"></i>
-        <span>BRAND IDENTITY</span>
-        <p className="separator">To an English person, it will seem like
-          simplified English,told me what </p>
-
-      </div>
-
-      <div className="services-block">
-
-        <i className="ion-ios-color-wand-outline"></i>
-        <span>WEB DESIGN</span>
-        <p className="separator">There are many variations of passages of
-          Lorem Ipsum available</p>
-
-      </div>
-
-      <div className="services-block">
-
-        <i className="ion-social-android-outline"></i>
-        <span>MOBILE APPS</span>
-        <p className="separator">To an English person, it will seem like
-          simplified English,told me what </p>
-
-      </div>
-
-      <div className="services-block">
-
-        <i className="ion-ios-analytics-outline"></i>
-        <span>Analytics</span>
-        <p className="separator">There are many variations of passages of
-          Lorem Ipsum available</p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div> */}
-
 </div>
   )
 }
