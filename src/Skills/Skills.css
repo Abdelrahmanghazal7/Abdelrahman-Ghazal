@@ -1,4 +1,4 @@
-#skills{
+#skills {
   overflow: hidden;
   margin-top: 50px;
 }
@@ -25,14 +25,14 @@
   color: black;
 }
 
-.skll{
+.skll {
   font-size: 3.3rem;
   color: black;
   font-weight: 800;
   text-align: center;
 }
 
-.hd{
+.hd {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   font-weight: bolder;
@@ -47,16 +47,16 @@
 }
 
 @media (max-width: 550px) {
-  #skills{
-  margin-top: -100px;
-}
+  #skills {
+    margin-top: -100px;
+  }
 }
 
 @media (max-width: 480px) {
 
-#des{
-  margin-top: 30px;
-}
+  #des {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 300px) {
@@ -64,7 +64,7 @@
   .progress {
     height: 1.3rem;
   }
-  
+
   .progress-bar {
     border-radius: 30px;
     font-size: 14px;
@@ -72,5 +72,5 @@
     color: #b46aff;
     font-weight: bolder;
   }
-  
-  }
+
+}

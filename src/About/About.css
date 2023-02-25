@@ -1,145 +1,145 @@
-#aboutme{
+#aboutme {
   overflow: hidden;
   margin-bottom: -50px;
 }
 
-#fw-normal{
+#fw-normal {
   color: black;
   font-weight: bold;
   font-size: 45px;
 }
 
 .timeline {
-    position: relative;
-    display: block;
-    list-style: none;
-    padding-left: 0;
-    width: 100%;
-  }
-  
-  .timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    width: 2px;
-    height: 95%;
-    background-color: #e3e5e9;
-  }
-  
-  .timeline li {
-    position: relative;
-    display: block;
-    padding-left: 30px;
-    margin-bottom: 20px;
-    border-top: none;
-  }
-  
-  .timeline li::before {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left: -8px;
-    width: 18px;
-    height: 18px;
-    border: 3px solid black;
-    border-radius: 50%;
-  }
-  
-  .timeline li .title {
-    width: 150px;
-    padding: 6px 20px;
-    background-color: #495057;
-    color: black;
-    font-weight: 800;
-    font-size: 20px;
-    border-radius: 30px 0 60px 30px;
-  }
-  
-  .timeline li .details {
-    background-color: rgb(189 189 189);
-    margin-top: 8px;
-    padding: 20px;
-    border-radius: 4px;
-  }
-  
-  .timeline li .details h5,
-  .timeline li .details p {
-    margin-bottom: 0;
-    color: #000000;
-  }
-  
-  .timeline li .details small {
-    display: block;
-    font-weight: 500;
-    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .timeline li::before {
-    background-color: #9b37ff;
-    box-shadow: 0 0 0 2px #9b37ff;
-  }
-  
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 130px;
-    margin-left: 70px;
-  }
-  
-  .skills__skill {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1rem;
-    background: rgba(153, 153, 153, .2);
-    border-radius: 5px;
-    font-weight: 600;
-    color: #666;
-  }
+  position: relative;
+  display: block;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
 
-  .logos{
-    display: flex;
-    margin-left: 120px;
-    opacity: .7;
-    margin-top: 30px;
-  }
-  
-  .logos img{
-    width: 60px;
-  }
-  
-  @media only screen and (max-width: 991px) {
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 2px;
+  height: 95%;
+  background-color: #e3e5e9;
+}
+
+.timeline li {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  border-top: none;
+}
+
+.timeline li::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  width: 18px;
+  height: 18px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.timeline li .title {
+  width: 150px;
+  padding: 6px 20px;
+  background-color: #495057;
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  border-radius: 30px 0 60px 30px;
+}
+
+.timeline li .details {
+  background-color: rgb(189 189 189);
+  margin-top: 8px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.timeline li .details h5,
+.timeline li .details p {
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.timeline li .details small {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.timeline li::before {
+  background-color: #9b37ff;
+  box-shadow: 0 0 0 2px #9b37ff;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 130px;
+  margin-left: 70px;
+}
+
+.skills__skill {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  background: rgba(153, 153, 153, .2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+
+.logos {
+  display: flex;
+  margin-left: 120px;
+  opacity: .7;
+  margin-top: 30px;
+}
+
+.logos img {
+  width: 60px;
+}
+
+@media only screen and (max-width: 991px) {
 
   .skills {
     margin-top: 70px;
     margin-left: 10px;
   }
 
-  .logos{
+  .logos {
     margin-left: 45px;
     margin-top: 30px;
   }
 }
 
 @media (max-width: 550px) {
- 
-  .logos{
+
+  .logos {
     margin-left: 100px;
   }
 }
 
 @media only screen and (max-width: 412px) {
 
-  .logos{
+  .logos {
     margin-left: 50px;
   }
 }
-  
+
 @media only screen and (max-width: 380px) {
 
   .skills {
@@ -147,7 +147,7 @@
     margin-left: 15px;
   }
 
-  .logos{
+  .logos {
     margin-left: 25px;
     margin-top: 30px;
   }
@@ -155,25 +155,25 @@
 
 @media only screen and (max-width: 300px) {
 
-.timeline li .details h5,
+  .timeline li .details h5,
   .timeline li .details p {
-   font-size: 15px;
+    font-size: 15px;
   }
 
   .skills {
     margin-top: 50px;
   }
-  
+
   .skills__skill {
     padding: 10px 20px;
     font-size: 10px;
   }
 
-  .logos img{
+  .logos img {
     width: 40px;
   }
-  
-  .logos{
+
+  .logos {
     margin-left: 30px;
   }
 }

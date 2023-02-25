@@ -3,11 +3,12 @@ import Cursor from '../Cursor';
 import "./Portfolio.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Gg from '../Gg';
+import Dropdown from '../Dropdown/Dropdown';
 import GoTop from '../GoTop/GoTop';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
-import New from '../New'
+import Animation from '../Animation/Animation.js';
+import Counter from '../Counter/Counter';
 
 const Portfolio = () => {
   useEffect(() => {
@@ -17,16 +18,15 @@ const Portfolio = () => {
     <div>
       {/* <Cursor /> */}
 
-      <Gg />
+      <Dropdown />
 
-      <New /> 
-
+      <Animation />
 
       <section id="projects" className="projects sec-pad">
         <div className="main-container">
           <h2 className="heading heading-sec heading-sec__mb-bg">
             <span className="heading-secc__main">Projects</span>
-            <span className="heading-sec__sub">
+            <span id='sub' className="heading-sec__sub">
               Here you will find some of the personal and clients
               projects that I
               created with each project containing its own case study
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      Roxy is website and a platform that I created where people
+                      Roxy is a platform that I created where people
                       can join the
                       community of their favorite youtube channels and
                       can be part of
@@ -103,11 +103,9 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      Sentra I re-created the frontend of Boreal Coffee's
-                      official web app
+                      Sentra I re-created the frontend
                       because I got attracted to their beautiful UI.
-                      It was a great
-                      experience for me to build the entire frontend.
+                      It was a great experience for me to build the entire frontend.
                     </p>
                   </div>
                   <div>
@@ -319,10 +317,12 @@ const Portfolio = () => {
         </div>
       </section>
 
+      <Counter />
+
       <Contact />
 
       <Footer />
-       
+
       <GoTop />
 
     </div>

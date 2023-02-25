@@ -26,14 +26,13 @@ const GoTop = () => {
   return (
     <div className="top">
 
-{showButton && (
+      {showButton && (
 
-<a href="#" onClick={scrollToTop} className="return-to-top" ><i class="fa
+        <a href="#" onClick={scrollToTop} className="return-to-top" ><i className="fa
             fa-long-arrow-up" ></i></a>
 
-        
+
       )}
-      {/* &#8679; is used to create the upward arrow */}
     </div>
   );
 };

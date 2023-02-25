@@ -35,16 +35,12 @@
 }
 
 .projects__row-img {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
 .projects__row {
   padding-bottom: 30px;
-}
-
-.projects__row-img {
-  width: 90%;
 }
 
 .projects__row-content {
@@ -82,6 +78,17 @@
   font-size: 2.5rem;
 }
 
+.heading-secc__main::after {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 3rem;
+  background: #592b86;
+  left: 48%;
+  transform: translatey(790%);
+  border-radius: 5px;
+}
+
 .heading-sec__sub {
   padding-bottom: 80px;
 }
@@ -95,8 +102,13 @@
   .imag {
     margin-left: 50px;
   }
-}
 
+  .projects__row-content-desc {
+    font-size: 17px;
+    max-width: 90%;
+    margin-left: 20px;
+  }
+}
 
 @media (max-width: 800px) {
   .projects__row {
@@ -120,16 +132,44 @@
   }
 }
 
+@media only screen and (min-width: 760px) and (max-width: 770px) {
+  .projects__row-img {
+    width: 90%;
+  }
+
+  .projects__row-content-desc {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width:600px) {
   .jekt {
     flex-direction: column;
   }
 }
 
+@media screen and (min-width:540px) and (max-width:540px) {
+  #sub {
+    margin-bottom: -10px;
+  }
+
+  .projects__row-content-desc {
+    font-size: 17px;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .heading-secc__main::after {
+    left: 46%;
+  }
+
+}
+
 @media (max-width: 480px) {
   .services-block i {
     margin-left: 170px;
   }
+
   .imag {
     margin-left: 30px;
     width: 150px;
@@ -138,11 +178,11 @@
 
   .heading-sec__sub {
     padding-bottom: 200px;
-    font-family: 'Font Awesome 5 Free';  
+    font-family: 'Font Awesome 5 Free';
     font-size: small;
     line-height: 2.3;
   }
-  
+
   .projects__row-content-desc {
     max-width: none;
     margin-left: -10px;
@@ -151,39 +191,34 @@
   .heading-secc__main {
     padding-top: 30px;
     font-weight: 900;
-    font-family: 'Font Awesome 5 Free';  
+    font-family: 'Font Awesome 5 Free';
+  }
+
+  .heading-secc__main::after {
+    left: 44%;
   }
 
 }
-
 
 @media (max-width: 300px) {
-  .services-block i {
-    margin-left: 170px;
-  }
-  .imag {
-    margin-left: 30px;
-    width: 150px;
-    height: 70px;
+  .heading-secc__main {
+    font-size: 2rem;
   }
 
   .heading-sec__sub {
-    padding-bottom: 200px;
-    font-family: 'Font Awesome 5 Free';  
-    font-size: small;
-    line-height: 2.3;
-  }
-  
-  .projects__row-content-desc {
-    max-width: none;
-    margin-left: -10px;
+    font-size: 10px;
   }
 
-  .heading-secc__main {
-    padding-top: 30px;
-    font-weight: 900;
-    font-family: 'Font Awesome 5 Free';  
+  .projects__row-img {
+    width: 90%;
+  }
+
+  .projects__row-content-desc {
+    font-size: 13px;
+  }
+
+  .btn--med {
+    font-size: 1rem;
   }
 
 }
-

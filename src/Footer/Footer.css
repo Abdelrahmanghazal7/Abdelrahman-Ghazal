@@ -3,6 +3,7 @@ footer {
   padding-top: 50px;
   overflow: hidden;
 }
+
 .social {
   color: rgb(95, 95, 95);
   font-family: 'FontAwesome';
@@ -10,7 +11,7 @@ footer {
   margin-left: 170px;
 }
 
-.splash{
+.splash {
   width: 100px;
   position: absolute;
   margin-top: -55px;
@@ -92,7 +93,6 @@ footer i {
   margin-bottom: -10px;
 }
 
-
 footer p {
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -105,6 +105,10 @@ footer p {
 
 .credit {
   color: #9b37ff;
+}
+
+.final {
+  margin-bottom: -1px;
 }
 
 @media screen and (min-width:760px) and (max-width:991px) {
@@ -123,12 +127,12 @@ footer p {
   .social {
     margin-left: 150px;
   }
-  
-  .splash{
+
+  .splash {
     margin-left: 135px;
   }
 
-  .details{
+  .details {
     margin-left: -20px;
   }
 
@@ -136,11 +140,11 @@ footer p {
     padding: 25px 0;
     margin-left: 80px;
   }
-  
+
   footer .icons i {
     font-size: 30px;
   }
-  
+
 }
 
 @media screen and (max-width:759px) {
@@ -149,12 +153,12 @@ footer p {
     margin-left: 130px;
     padding-top: 10px;
   }
-  
+
   footer .icons {
     margin-left: 50px;
   }
 
-  .splash{
+  .splash {
     margin-top: -45px;
     margin-left: 118px;
   }
@@ -167,16 +171,16 @@ footer p {
     margin-left: 70px;
   }
 
-  .details{
+  .details {
     margin-left: 90px;
   }
 
   .mb-30 {
-font-size: 34px;  
-padding-bottom: 20px;
-margin-top: -20px;
-}
-  
+    font-size: 34px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+  }
+
 }
 
 @media screen and (max-width:500px) {
@@ -185,8 +189,8 @@ margin-top: -20px;
     margin-left: 0;
   }
 
-  .details{
-    margin-left: 0;
+  .details {
+    margin-left: 7px;
   }
 
 }
@@ -197,7 +201,7 @@ margin-top: -20px;
     margin-left: 100px;
     padding-top: 10px;
   }
-  
+
   footer .icons {
     margin-left: 30px;
   }
@@ -206,19 +210,19 @@ margin-top: -20px;
     font-size: 25px;
   }
 
-  .splash{
+  .splash {
     margin-top: -43px;
     margin-left: 88px;
   }
-  
+
   .mb-30 {
     padding-bottom: 20px;
     font-size: 30px;
-  } 
+  }
 
-.right {
-  font-size: 19px;
-}
+  .right {
+    font-size: 19px;
+  }
 }
 
 
@@ -230,7 +234,7 @@ margin-top: -20px;
     font-size: 27px;
     margin-bottom: -10px;
   }
-  
+
   footer .icons span a {
     margin: 0 25px 0 0;
   }
@@ -243,17 +247,21 @@ margin-top: -20px;
     font-size: 21px;
   }
 
-  .splash{
+  .splash {
     margin-left: 60px;
     margin-top: -32px;
     width: 80px;
   }
-  
+
   .mb-30 {
     font-size: 26px;
-  } 
+  }
 
-.right {
-  font-size: 14px;
-}
+  .right {
+    font-size: 14px;
+  }
+
+  .final {
+    font-size: 10px;
+  }
 }

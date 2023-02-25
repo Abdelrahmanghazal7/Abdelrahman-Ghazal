@@ -3,14 +3,11 @@ import emailjs from '@emailjs/browser';
 import "./Contact.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import '../Model.css';
-import Modal from '../Model';
+import Popup from '../Popup/Popup';
 
 const Contact = () => {
 
   const [openModal, setOpenModal] = useState(false);
-  const sendButton = document.getElementById("submit");
-  const popup = document.getElementsByClassName("overlay");
 
   const form = useRef();
 
@@ -57,8 +54,7 @@ const Contact = () => {
                 <div data-aos="fade-in" className="contact__form-container">
                   <form ref={form} onSubmit={sendEmail} id="form" name="form" className='contact__form'>
                     <div className="contact__form-field">
-                      <label className="contact__form-label"
-                        for="name">Name</label>
+                      <label className="contact__form-label">Name</label>
                       <input
                         placeholder="Enter Your Name"
                         type="text"
@@ -67,8 +63,7 @@ const Contact = () => {
                         id="name" />
                     </div>
                     <div className="contact__form-field">
-                      <label className="contact__form-label"
-                        for="email">Email</label>
+                      <label className="contact__form-label">Email</label>
                       <input
                         placeholder="Enter Your Email"
                         type="email"
@@ -77,8 +72,7 @@ const Contact = () => {
                         id="email" />
                     </div>
                     <div className="contact__form-field">
-                      <label className="contact__form-label"
-                        for="message">Message</label>
+                      <label className="contact__form-label">Message</label>
                       <textarea
                         required
                         cols="30"
@@ -94,10 +88,10 @@ const Contact = () => {
 
 
 
-            <button id="submit" className="botn" onClick={() => setOpenModal(true)}>
+            <button type='submit' id="submit" className="botn" onClick={() => setOpenModal(true)}>
                 Send message
             </button>
-            <Modal open={openModal} onClose={() => setOpenModal(false)} />
+            <Popup open={openModal} onClose={() => setOpenModal(false)} />
 
 
 

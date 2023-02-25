@@ -1,10 +1,16 @@
 import React from 'react'
-import './New.css'
+import './Animation.css'
 
-const New = () => {
+const Animation = () => {
     return (
-        <div class="box">
+        <div className="box">
             <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -16,4 +22,4 @@ const New = () => {
     )
 }
 
-export default New
+export default Animation

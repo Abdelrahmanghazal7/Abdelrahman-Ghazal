@@ -1,13 +1,12 @@
-import portrait from './Me.jpeg'
 import { Link } from "react-router-dom";
-import './Gg.css'
+import './Dropdown.css'
 
-function Gg() {
+function Dropdown() {
   return (
 
     <div className="dropdown-center">
-      <div className="menu-trigger btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <img src={portrait}></img>
+      <div className="menu-trigger btn-secondary" type="button" data-bs-toggle="dropdown">
+        <img src="./images/Me.jpeg" alt="me"></img>
       </div>
 
       <ul className="dropdown-menu">
@@ -19,4 +18,4 @@ function Gg() {
   );
 }
 
-export default Gg;
+export default Dropdown;

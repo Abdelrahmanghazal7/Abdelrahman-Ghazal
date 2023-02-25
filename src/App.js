@@ -1,10 +1,9 @@
 import React from 'react'
 // import Cursor from './Cursor';
-// import Navbar from './Navbar/Navbar'
-import Test from './Test'
+import Navbar from './Navbar/Navbar'
 import Header from './Header/Header'
 import Services from './Services/Services'
-import Slide from "./Slide";
+import Slide from "./Slide/Slide";
 import ExpertIse from './ExpertIse/ExpertIse'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
@@ -20,15 +19,13 @@ const App = () => {
 
       {/* <Cursor /> */}
 
-      {/* <Navbar /> */}
-
-      <Test />
+      <Navbar />
 
       <Header />
 
       <Services />
 
-      <Slide/>
+      <Slide />
 
       <ExpertIse />
 
@@ -38,12 +35,12 @@ const App = () => {
 
       <About />
 
-      <Contact /> 
+      <Contact />
 
       <Footer />
 
       <GoTop />
-      
+
     </div>
   )
 }
