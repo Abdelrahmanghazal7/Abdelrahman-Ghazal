@@ -9,13 +9,21 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Animation from '../Animation/Animation.js';
 import Counter from '../Counter/Counter';
+import {motion as m} from "framer-motion";
+
 
 const Portfolio = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div>
+
+    
+    <m.div initial={{opacity:0}} 
+    animate={{opacity:1}}  
+    transition={{duration:0.75, ease:"easeOut"}}
+    exit={{opacity:1}}
+    >
       {/* <Cursor /> */}
 
       <Dropdown />
@@ -325,7 +333,7 @@ const Portfolio = () => {
 
       <GoTop />
 
-    </div>
+    </m.div>
   )
 }
 

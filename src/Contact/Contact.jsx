@@ -52,6 +52,11 @@ const Contact = () => {
                   </span>
                 </h2>
                 <div data-aos="fade-in" className="contact__form-container">
+
+
+
+
+                  
                   <form ref={form} onSubmit={sendEmail} id="form" name="form" className='contact__form'>
                     <div className="contact__form-field">
                       <label className="contact__form-label">Name</label>
