@@ -166,12 +166,20 @@
         left: 573px;
     }
 
+    #lol1 {
+        margin-left: 90px;
+    }
+
+    #lol2 {
+        margin-left: 10px;
+    }
+
 }
 
 @media (max-width: 825px) {
 
     .circle {
-        left: 519px;
+        left: 528px;
     }
 
     .bref:after {
@@ -182,6 +190,8 @@
     #lol1 p {
         max-width: 200px;
     }
+
+   
 }
 
 @media (max-width: 770px) {

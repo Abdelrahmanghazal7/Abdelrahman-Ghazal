@@ -1,31 +1,42 @@
-// import React from 'react'
-// // import Cursor from './Cursor';
-// import Navbar from './Navbar/Navbar'
-// import Header from './Header/Header'
-// import Services from './Services/Services'
-// import Slide from "./Slide/Slide";
-// import ExpertIse from './ExpertIse/ExpertIse'
-// import Projects from './Projects/Projects'
-// import Skills from './Skills/Skills'
-// import About from './About/About'
-// import Contact from './Contact/Contact'
-// import Footer from './Footer/Footer'
-// import GoTop from './GoTop/GoTop'
-import Test from './Test'
+import React from 'react'
+import Cursor from './Cursor';
+import Navbar from './Navbar/Navbar'
+import Header from './Header/Header'
+import Services from './Services/Services'
+import Slide from "./Slide/Slide";
+import ExpertIse from './ExpertIse/ExpertIse'
+import Projects from './Projects/Projects'
+import Skills from './Skills/Skills'
+import About from './About/About'
+import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
+import GoTop from './GoTop/GoTop'
 import './App.css'
-import {motion as m} from "framer-motion";
-
+import { motion as m } from "framer-motion";
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
-    <m.div initial={{opacity:0}} 
-    animate={{opacity:1}}  transition={{duration:0.75, ease:"easeOut"}} exit={{opacity:0}}>
+    <m.div initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }} transition={{ duration: 0.75, ease: "easeOut" }} exit={{ opacity: 0 }}>
 
-      <Test />
 
-      {/* <Cursor />
+      <Cursor />
 
       <Navbar />
+
+      <ToastContainer
+    position="top-left"
+    autoClose={3000}
+    hideProgressBar={false}
+    newestOnTop={false}
+    closeOnClick
+    rtl={false}
+    pauseOnFocusLoss={false}
+    draggable={false}
+    pauseOnHover
+    theme="dark"
+      />
 
       <Header />
 
@@ -36,18 +47,16 @@ const App = () => {
       <ExpertIse />
 
       <Projects />
-      
+
       <Skills />
 
       <About />
 
-      <Contact /> 
-
-      <Test />
+      <Contact />
 
       <Footer />
 
-      <GoTop /> */}
+      <GoTop />
 
     </m.div>
   )

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './App.css'
 
 export default function Cursor() {
   const [cursorX, setCursorX] = useState()
@@ -6,15 +7,15 @@ export default function Cursor() {
   window.addEventListener("mousemove", e => {
     setCursorX(e.pageX)
     setCursorY(e.pageY)
-
   })
-  return (<>
-    <div className='cursor' style={{
-      left: cursorX + 'px',
-      top: cursorY + 'px',
-    }}>
 
+  return (
+    <div className='side'>
+      <div className='cursor' style={{
+        left: cursorX + 'px',
+        top: cursorY + 'px',
+      }}>
+      </div>
     </div>
-  </>
   )
 }

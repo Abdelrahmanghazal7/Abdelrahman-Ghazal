@@ -149,6 +149,12 @@
   color: rgb(95, 95, 95);
 }
 
+#text{
+  color: rgb(189, 0, 0);
+  font-size: 13px;
+  font-family: cursive;
+}
+
 @media only screen and (max-width:600px) {
   .contact__form-container {
     padding: 2rem;
@@ -174,6 +180,10 @@
 
   .heading-sec__sub {
     margin-bottom: 280px;
+  }
+
+  .heading-sec__main::after {
+    left: 45%;
   }
 }
 

@@ -24,7 +24,7 @@ const Portfolio = () => {
     transition={{duration:0.75, ease:"easeOut"}}
     exit={{opacity:1}}
     >
-      {/* <Cursor /> */}
+      <Cursor />
 
       <Dropdown />
 

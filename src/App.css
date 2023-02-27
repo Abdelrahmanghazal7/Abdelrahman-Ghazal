@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* cursor: none; */
+  cursor: none;
 }
 
 body {
@@ -43,4 +43,9 @@ body {
   height: 30px;
   width: 30px;
   border-radius: 50%;
+  opacity: .5;
+}
+
+.side{
+  overflow: hidden;
 }
