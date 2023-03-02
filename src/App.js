@@ -2,12 +2,12 @@ import React from 'react'
 import Cursor from './Cursor';
 import Navbar from './Navbar/Navbar'
 import Header from './Header/Header'
-import Services from './Services/Services'
+import About from './About/About'
 import Slide from "./Slide/Slide";
 import ExpertIse from './ExpertIse/ExpertIse'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
-import About from './About/About'
+import Education from './Education/Education'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
 import GoTop from './GoTop/GoTop'
@@ -40,7 +40,7 @@ const App = () => {
 
       <Header />
 
-      <Services />
+      <About />
 
       <Slide />
 
@@ -50,7 +50,7 @@ const App = () => {
 
       <Skills />
 
-      <About />
+      <Education />
 
       <Contact />
 

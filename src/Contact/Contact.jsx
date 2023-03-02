@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Animation from '../Animation/Animation.js';
 
 function Contact() {
 
@@ -82,10 +83,9 @@ function Contact() {
 
     return (
 
+        <div id="contact">
 
-
-        <div id="contact" className="ppaddsection">
-
+                    <Animation />
 
             <div className="container">
                 <div className="contact-block1">

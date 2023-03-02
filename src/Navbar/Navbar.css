@@ -70,10 +70,12 @@
 
 .nav-item {
   height: 70px;
+  cursor: pointer;
 }
 
-.nav-item:hover {
-  border-bottom: 2px solid #9b37ff;
+.nav-item .active {
+  border-bottom: 3px solid;
+  transition: .3s;
 }
 
 #linko {
@@ -93,16 +95,15 @@
   transition: all 0.3s ease;
 }
 
-.activated {
-  color: #9b37ff;
-}
-
 .menu-icon {
   display: none;
 }
 
-
 @media screen and (max-width: 768px) {
+
+  .nav-item .active {
+    border-bottom:none;
+  }
 
   .nav-menu {
     display: flex;

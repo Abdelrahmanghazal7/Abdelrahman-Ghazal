@@ -1,179 +1,75 @@
-#aboutme {
+.ser {
   overflow: hidden;
-  margin-bottom: -50px;
 }
 
-#fw-normal {
-  color: black;
-  font-weight: bold;
-  font-size: 45px;
-}
-
-.timeline {
-  position: relative;
-  display: block;
-  list-style: none;
-  padding-left: 0;
+#service {
   width: 100%;
+  height: auto;
+  padding-top: 170px;
 }
 
-.timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 2px;
-  height: 95%;
-  background-color: #e3e5e9;
+.us {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(34, 34, 34));
 }
 
-.timeline li {
-  position: relative;
-  display: block;
-  padding-left: 30px;
-  margin-bottom: 20px;
-  border-top: none;
+.div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #212529;
 }
 
-.timeline li::before {
-  content: '';
-  position: absolute;
-  top: 8px;
-  left: -8px;
-  width: 18px;
-  height: 18px;
-  border: 3px solid black;
-  border-radius: 50%;
+.div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  object-fit: cover;
 }
 
-.timeline li .title {
-  width: 150px;
-  padding: 6px 20px;
-  background-color: #495057;
-  color: black;
-  font-weight: 800;
-  font-size: 20px;
-  border-radius: 30px 0 60px 30px;
+.about-descr .p-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  text-align: left;
+  color: #ab5cfb;
 }
 
-.timeline li .details {
-  background-color: rgb(189 189 189);
-  margin-top: 8px;
-  padding: 20px;
-  border-radius: 4px;
-}
-
-.timeline li .details h5,
-.timeline li .details p {
+.about-descr .separator {
+  max-width: 80%;
   margin-bottom: 0;
-  color: #000000;
+  text-align: left;
 }
 
-.timeline li .details small {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+.elementor-element {
+  opacity: .2;
+  max-width: 100%;
+  margin-left: 50px;
 }
 
-.timeline li::before {
-  background-color: #9b37ff;
-  box-shadow: 0 0 0 2px #9b37ff;
-}
+@media (max-width: 480px) {
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 130px;
-  margin-left: 70px;
-}
-
-.skills__skill {
-  padding: 1rem 2rem;
-  margin-bottom: 1.5rem;
-  margin-right: 1.5rem;
-  font-size: 1rem;
-  background: rgba(153, 153, 153, .2);
-  border-radius: 5px;
-  font-weight: 600;
-  color: #666;
-}
-
-.logos {
-  display: flex;
-  margin-left: 120px;
-  opacity: .7;
-  margin-top: 30px;
-}
-
-.logos img {
-  width: 60px;
-}
-
-@media only screen and (max-width: 991px) {
-
-  .skills {
-    margin-top: 70px;
-    margin-left: 10px;
+  .div-img-bg .about-img img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
   }
 
-  .logos {
-    margin-left: 45px;
-    margin-top: 30px;
+  .div-img-bg {
+    padding-bottom: 0;
+  }
+
+  .elementor-element {
+    margin-left: 0;
+  }
+
+  .about-descr .separator {
+    max-width: 100%;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 300px) {
 
-  .logos {
-    margin-left: 100px;
-  }
-}
-
-@media only screen and (max-width: 412px) {
-
-  .logos {
-    margin-left: 50px;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-
-  .skills {
-    margin-top: 70px;
-    margin-left: 15px;
+  .about-descr .p-heading {
+    font-size: 20px;
   }
 
-  .logos {
-    margin-left: 25px;
-    margin-top: 30px;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-
-  .timeline li .details h5,
-  .timeline li .details p {
-    font-size: 15px;
-  }
-
-  .skills {
-    margin-top: 50px;
-  }
-
-  .skills__skill {
-    padding: 10px 20px;
-    font-size: 10px;
-  }
-
-  .logos img {
-    width: 40px;
-  }
-
-  .logos {
-    margin-left: 30px;
-  }
 }

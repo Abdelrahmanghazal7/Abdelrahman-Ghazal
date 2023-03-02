@@ -51,6 +51,13 @@
     box-shadow: 0 0 10px #9b37ff, 0 0 40px #9b37ff, 0 0 80px #9b37ff;
 }
 
+.rk {
+    margin-top: 70px;
+}
+
+.dire {
+    margin-top: 70px;
+}
 
 @media (max-width: 920px) {
     #arrow {

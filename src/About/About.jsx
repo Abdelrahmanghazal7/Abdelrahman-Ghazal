@@ -3,80 +3,45 @@ import "./About.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div id="aboutme" className="container pt-5">
-      <div className="row">
-        <div data-aos="fade-right" className="col-md-6 wow fadeInRight">
-          <h2 id="fw-normal">Education</h2>
-          <ul className="timeline mt-4 pr-md-5">
-            <li>
-              <div className="title">2022</div>
-              <div className="details">
-                <h5>Front-End Development</h5>
-                <small className="fg-theme">Mag Camp</small>
-                <p>using coding languages like HTML, CSS, and JavaScript
-                  to construct web designs, also involved in building
-                  systems, developing software architecture, and
-                  translating business logic into solutions.</p>
-              </div>
-            </li>
-            <li>
-              <div className="title">2021</div>
-              <div className="details">
-                <h5>CS50</h5>
-                <small className="fg-theme">Online Course</small>
-                <p>Includs Computer Science for Web Programming - a more
-                  in-depth look at HTML, CSS, and JavaScript, as well as
-                  frameworks including Flask and Django Introduction to
-                  Artificial Intelligence with Python - covers search
-                  algorithms, machine learning, Introduction to Game
-                  Development - teaches 2D game engines, as well as 2D and
-                  3D game principles.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+    <div id='about' className='ser'>
+      <div className="us">
+        <div id="service" className="paddsection">
+          <div className="container">
+            <div className="row justify-content-between">
 
+              <div className="col-lg-4">
+                <div className="div-img-bg">
+                  <div className="about-img">
+                    <img data-aos="zoom-out" src="images/Me.jpeg" className="img-responsive" alt="me" />
+                  </div>
+                </div>
+              </div>
 
-        <div className="col-md-6">
-          <div className="about__content-skills">
-            <div className="skills">
-              <div data-aos="flip-left" className="skills__skill">HTML</div>
-              <div data-aos="flip-left" className="skills__skill">CSS</div>
-              <div data-aos="flip-left" className="skills__skill">JavaScript</div>
-              <div data-aos="flip-left" className="skills__skill">React</div>
-              <div data-aos="flip-left" className="skills__skill">SASS</div>
-              <div data-aos="flip-left" className="skills__skill">Bootstrab</div>
-              <div data-aos="flip-left" className="skills__skill">TypeScript</div>
-              <div data-aos="flip-left" className="skills__skill">API</div>
-              <div data-aos="flip-left" className="skills__skill">OOP</div>
-              <div data-aos="flip-left" className="skills__skill">GIT</div>
-              <div data-aos="flip-left" className="skills__skill">Github</div>
-              <div data-aos="flip-left" className="skills__skill">Responsive Design</div>
-              <div data-aos="flip-left" className="skills__skill">SEO</div>
-              <div data-aos="flip-left" className="skills__skill">Terminal</div>
+              <div className="col-lg-7">
+                <div className="about-descr">
+
+                  <p data-aos="fade" className="p-heading">I am a front-end developer</p>
+                  <p data-aos="fade-up" className="separator">Well-versed executing front-end web
+                    development using HTML and CSS, with an in-depth knowledge of
+                    Media Query. Adept at working with frameworks like React to
+                    successfully execute cross-platform UI interfaces.
+                    To seek and maintain full or part-time position that offers
+                    professional challenges utilizing interpersonal skills,
+                    excellent time management and problem-solving skills.
+                  </p>
+
+                  <img className='elementor-element' src="https://tamalsen.dev/wp-content/uploads/2021/12/hello-world-html-code-768x384.png" alt='' />
+
+                </div>
+              </div>
             </div>
           </div>
-
-          <div className='logos'>
-
-            <img src='images/html.png'></img>
-            <img src='images/css.png'></img>
-            <img src='images/js.png'></img>
-            <img src='images/bootstrap.png'></img>
-            <img src='images/react.png'></img>
-
-
-
-          </div>
-
-
-
-
         </div>
       </div>
     </div>

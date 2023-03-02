@@ -1,39 +1,128 @@
-import React, { useEffect } from 'react'
-import Cursor from '../Cursor';
+import React, { useEffect, useCallback } from 'react'
 import "./Portfolio.css"
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Cursor from '../Cursor';
 import Dropdown from '../Dropdown/Dropdown';
-import GoTop from '../GoTop/GoTop';
+import Counter from '../Counter/Counter';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
-import Animation from '../Animation/Animation.js';
-import Counter from '../Counter/Counter';
-import {motion as m} from "framer-motion";
-
+import GoTop from '../GoTop/GoTop';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { motion as m } from "framer-motion";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
 
 const Portfolio = () => {
+
+  const particlesInit = useCallback(async engine => {
+    console.log(engine);
+    await loadFull(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async container => {
+    await console.log(container);
+  }, []);
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
 
-    
-    <m.div initial={{opacity:0}} 
-    animate={{opacity:1}}  
-    transition={{duration:0.75, ease:"easeOut"}}
-    exit={{opacity:1}}
+    <m.div initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
+      exit={{ opacity: 1 }}
     >
       <Cursor />
 
       <Dropdown />
 
-      <Animation />
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          style: {
+            position: "absolute",
+            height: "443%",
+          },
+          fpsLimit: 120,
+          interactivity: {
+            events: {
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
+              onHover: {
+                enable: true,
+                mode: "repulse",
+              },
+              resize: true,
+            },
+            modes: {
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: "#000",
+            },
+            links: {
+              color: "#000",
+              distance: 150,
+              enable: true,
+              opacity: 0.5,
+              width: 1,
+            },
+            collisions: {
+              enable: true,
+            },
+            move: {
+              directions: "none",
+              enable: true,
+              outModes: {
+                default: "bounce",
+              },
+              random: false,
+              speed: 1,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                area: 800,
+              },
+              value: 80,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: "circle",
+            },
+            size: {
+              value: { min: 2, max: 6 },
+            },
+          },
+          detectRetina: true,
+        }}
+      />
 
       <section id="projects" className="projects sec-pad">
         <div className="main-container">
           <h2 className="heading heading-sec heading-sec__mb-bg">
-            <span className="heading-secc__main">Projects</span>
+          <span className="heading-main">Projects</span>
+            <span className="heading-secc__main">
+              <img className='brace' src='images/left brace.png' alt='left'></img>
+              Projects
+              <img id='bra' className='brace' src='images/right brace.png' alt='right'></img>
+            </span>
             <span id='sub' className="heading-sec__sub">
               Here you will find some of the personal and clients
               projects that I
@@ -64,61 +153,7 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://be-black.vercel.app/' target='_blank'>BeBlack</a>
-                  </div>
-                </div>
-              </div>
-              <div data-aos="fade-up" className="projects__row">
-                <div className="projects__row-img-cont">
-                  <a href="https://roxy-phi.vercel.app/"><img
-                    src="images/portfolio/1.png"
-                    alt="Software Screenshot"
-                    className="projects__row-img"
-                    loading="lazy"
-                  /></a>
-                </div>
-                <div className="projects__row-content">
-                  <div>
-                    <p className="projects__row-content-desc">
-                      Roxy is a platform that I created where people
-                      can join the
-                      community of their favorite youtube channels and
-                      can be part of
-                      the conversation.
-                    </p>
-                  </div>
-                  <div>
-                    <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://roxy-phi.vercel.app/' target='_blank'>Roxy</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-            <div className="jekt">
-              <div data-aos="fade-up" className="projects__row">
-                <div className="projects__row-img-cont">
-                  <a href="https://sentra.vercel.app/"><img
-                    src="images/portfolio/4.png"
-                    alt="Software Screenshot"
-                    className="projects__row-img"
-                    loading="lazy"
-                  /></a>
-                </div>
-                <div className="projects__row-content">
-                  <div>
-                    <p className="projects__row-content-desc">
-                      Sentra I re-created the frontend
-                      because I got attracted to their beautiful UI.
-                      It was a great experience for me to build the entire frontend.
-                    </p>
-                  </div>
-                  <div>
-                    <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://sentra.vercel.app/' target='_blank'>Sentra</a>
+                      href='https://be-black.vercel.app/' target='_blank' rel='noreferrer'>BeBlack</a>
                   </div>
                 </div>
               </div>
@@ -143,7 +178,7 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://univers-five.vercel.app/' target='_blank'>Univers</a>
+                      href='https://univers-five.vercel.app/' target='_blank' rel='noreferrer'>Univers</a>
                   </div>
                 </div>
               </div>
@@ -151,13 +186,11 @@ const Portfolio = () => {
 
 
 
-
-
             <div className="jekt">
               <div data-aos="fade-up" className="projects__row">
                 <div className="projects__row-img-cont">
-                  <a href="https://e-commerce-beryl-sigma.vercel.app/"><img
-                    src="images/portfolio/3.png"
+                  <a href="https://sentra.vercel.app/"><img
+                    src="images/portfolio/4.png"
                     alt="Software Screenshot"
                     className="projects__row-img"
                     loading="lazy"
@@ -166,52 +199,17 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      E-Commerce is a online shose shop and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
+                      Sentra I re-created the frontend
+                      because I got attracted to their beautiful UI.
+                      It was a great experience for me to build the entire frontend.
                     </p>
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://e-commerce-beryl-sigma.vercel.app/' target='_blank'>E-Commerce</a>
+                      href='https://sentra.vercel.app/' target='_blank' rel='noreferrer'>Sentra</a>
                   </div>
                 </div>
               </div>
-              <div data-aos="fade-up" className="projects__row">
-                <div className="projects__row-img-cont">
-                  <a href="https://kudzoka-chi.vercel.app/"><img
-                    src="images/portfolio/6.png"
-                    alt="Software Screenshot"
-                    className="projects__row-img"
-                    loading="lazy"
-                  /></a>
-                </div>
-                <div className="projects__row-content">
-                  <div>
-                    <p className="projects__row-content-desc">
-                      Kudzoka is a multiservice logistics and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
-                    </p>
-                  </div>
-                  <div>
-                    <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://kudzoka-chi.vercel.app/' target='_blank'>Kudzoka</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-
-            <div className="jekt">
               <div data-aos="fade-up" className="projects__row">
                 <div className="projects__row-img-cont">
                   <a href="https://service-company-five.vercel.app/"><img
@@ -233,39 +231,11 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://service-company-five.vercel.app/' target='_blank'>Bizza</a>
-                  </div>
-                </div>
-              </div>
-              <div data-aos="fade-up" className="projects__row">
-                <div className="projects__row-img-cont">
-                  <a href="https://dabiz.vercel.app/"><img
-                    src="images/portfolio/9.png"
-                    alt="Software Screenshot"
-                    className="projects__row-img"
-                    loading="lazy"
-                  /></a>
-                </div>
-                <div className="projects__row-content">
-                  <div>
-                    <p className="projects__row-content-desc">
-                      Dabiz is a multiservice logistics and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
-                    </p>
-                  </div>
-                  <div>
-                    <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://dabiz.vercel.app/' target='_blank'>Dabiz</a>
+                      href='https://service-company-five.vercel.app/' target='_blank' rel='noreferrer'>Bizza</a>
                   </div>
                 </div>
               </div>
             </div>
-
-
-
 
 
 
@@ -291,7 +261,62 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://bldr-pearl.vercel.app/' target='_blank'>Bldr</a>
+                      href='https://bldr-pearl.vercel.app/' target='_blank' rel='noreferrer'>Bldr</a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" className="projects__row">
+                <div className="projects__row-img-cont">
+                  <a href="https://dabiz.vercel.app/"><img
+                    src="images/portfolio/9.png"
+                    alt="Software Screenshot"
+                    className="projects__row-img"
+                    loading="lazy"
+                  /></a>
+                </div>
+                <div className="projects__row-content">
+                  <div>
+                    <p className="projects__row-content-desc">
+                      Dabiz is a multiservice logistics and
+                      transport company and
+                      I created their website from scratch using the
+                      frontend tools I
+                      know.
+                    </p>
+                  </div>
+                  <div>
+                    <a className='btn--med btn--theme dynamicBgClr'
+                      href='https://dabiz.vercel.app/' target='_blank' rel='noreferrer'>Dabiz</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="jekt">
+              <div data-aos="fade-up" className="projects__row">
+                <div className="projects__row-img-cont">
+                  <a href="https://roxy-phi.vercel.app/"><img
+                    src="images/portfolio/1.png"
+                    alt="Software Screenshot"
+                    className="projects__row-img"
+                    loading="lazy"
+                  /></a>
+                </div>
+                <div className="projects__row-content">
+                  <div>
+                    <p className="projects__row-content-desc">
+                      Roxy is a platform that I created where people
+                      can join the
+                      community of their favorite youtube channels and
+                      can be part of
+                      the conversation.
+                    </p>
+                  </div>
+                  <div>
+                    <a className='btn--med btn--theme dynamicBgClr'
+                      href='https://roxy-phi.vercel.app/' target='_blank' rel='noreferrer'>Roxy</a>
                   </div>
                 </div>
               </div>
@@ -317,6 +342,61 @@ const Portfolio = () => {
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
                       href='#' target='_blank'>Gjfox</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="jekt">
+              <div data-aos="fade-up" className="projects__row">
+                <div className="projects__row-img-cont">
+                  <a href="https://e-commerce-beryl-sigma.vercel.app/"><img
+                    src="images/portfolio/3.png"
+                    alt="Software Screenshot"
+                    className="projects__row-img"
+                    loading="lazy"
+                  /></a>
+                </div>
+                <div className="projects__row-content">
+                  <div>
+                    <p className="projects__row-content-desc">
+                      E-Commerce is a online shose shop and
+                      transport company and
+                      I created their website from scratch using the
+                      frontend tools I
+                      know.
+                    </p>
+                  </div>
+                  <div>
+                    <a className='btn--med btn--theme dynamicBgClr'
+                      href='https://e-commerce-beryl-sigma.vercel.app/' target='_blank' rel="noreferrer">E-Commerce</a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" className="projects__row">
+                <div className="projects__row-img-cont">
+                  <a href="https://kudzoka-chi.vercel.app/"><img
+                    src="images/portfolio/6.png"
+                    alt="Software Screenshot"
+                    className="projects__row-img"
+                    loading="lazy"
+                  /></a>
+                </div>
+                <div className="projects__row-content">
+                  <div>
+                    <p className="projects__row-content-desc">
+                      Kudzoka is a multiservice logistics and
+                      transport company and
+                      I created their website from scratch using the
+                      frontend tools I
+                      know.
+                    </p>
+                  </div>
+                  <div>
+                    <a className='btn--med btn--theme dynamicBgClr'
+                      href='https://kudzoka-chi.vercel.app/' target='_blank' rel="noreferrer">Kudzoka</a>
                   </div>
                 </div>
               </div>

@@ -3,15 +3,13 @@
   width: 100%;
   color: rgb(221, 221, 221);
   overflow: hidden;
+  padding-bottom: 50px;
+  z-index: 999999;
 }
 
 #contact input,
 #contact textarea {
   width: 100%;
-}
-
-.ppaddsection {
-  padding-bottom: 50px;
 }
 
 .main-container {
@@ -72,7 +70,7 @@
   width: 3rem;
   background: rgb(7, 7, 7);
   left: 48%;
-  transform: translatey(1400%);
+  transform: translatey(1300%);
   border-radius: 5px;
 }
 

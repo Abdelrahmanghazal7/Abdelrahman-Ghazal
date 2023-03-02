@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import { Link } from 'react-scroll'
 
 function useScrollListener() {
   const [data, setData] = useState({
@@ -70,70 +71,34 @@ function Navbar() {
               <ul className={click ? "nav-menu active" : "nav-menu"}>
 
                 <li className="nav-item">
-                  <a id="linko"
-                    href="#"
-                    className={({ isActive }) =>
-                      "nav-links" + (isActive ? " activated" : "")
-                    }
-                    onClick={closeMobileMenu}
-                  >
-                    Home
-                  </a>
+                  <Link to="about" id="linko" spy={true} smooth={true} duration={200} onClick={closeMobileMenu}>
+                  About Me
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a id="linko"
-                    href="#service"
-                    className={({ isActive }) =>
-                      "nav-links" + (isActive ? " activated" : "")
-                    }
-                    onClick={closeMobileMenu}
-                  >
+                  <Link to="expertse" id="linko" spy={true} smooth={true} duration={200} onClick={closeMobileMenu}>
                     Service
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a id="linko"
-                    href="#portfolio"
-                    className={({ isActive }) =>
-                      "nav-links" + (isActive ? " activated" : "")
-                    }
-                    onClick={closeMobileMenu}
-                  >
+                  <Link to="portfolio" id="linko" spy={true} smooth={true} duration={200} onClick={closeMobileMenu}>
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a id="linko"
-                    href="#skills"
-                    className={({ isActive }) =>
-                      "nav-links" + (isActive ? " activated" : "")
-                    }
-                    onClick={closeMobileMenu}
-                  >
+                  <Link to="skills" id="linko" spy={true} smooth={true} offset={-50} duration={200} onClick={closeMobileMenu}>
                     My Skills
-                  </a>
+                  </Link>
                 </li>
-                <li className="nav-item">
-                  <a id="linko"
-                    href="#aboutme"
-                    className={({ isActive }) =>
-                      "nav-links" + (isActive ? " activated" : "")
-                    }
-                    onClick={closeMobileMenu}
-                  >
+                {/* <li className="nav-item">
+                  <Link to="aboutme" id="linko" spy={true} smooth={true} offset={-300} duration={500} onClick={closeMobileMenu}>
                     About Me
-                  </a>
-                </li>
+                  </Link>
+                </li> */}
                 <li className="nav-item">
-                  <a id="linko"
-                    href="#Contact"
-                    className={({ isActive }) =>
-                      "nav-links" + (isActive ? " activated" : "")
-                    }
-                    onClick={closeMobileMenu}
-                  >
+                  <Link to="contact" id="linko" spy={true} smooth={true} offset={100} duration={200} onClick={closeMobileMenu}>
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

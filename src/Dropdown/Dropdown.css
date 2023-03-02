@@ -103,16 +103,30 @@ a {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 360px) {
 
   .menu-trigger img {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
   }
 
   .dropdown-center {
-    right: 137px;
-    top: 120px;
+    right: 133px;
+    top: 110px;
+  }
+
+}
+
+@media (max-width: 300px) {
+
+  .menu-trigger img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .dropdown-center {
+    right: 124px;
+    top: 90px;
   }
 
 }
