@@ -28,8 +28,8 @@ const GoTop = () => {
 
       {showButton && (
 
-        <a href="#" onClick={scrollToTop} className="return-to-top" ><i className="fa
-            fa-long-arrow-up" ></i></a>
+        <a href="#" onClick={scrollToTop} className="return-to-top"><i className="fa
+            fa-long-arrow-up"></i></a>
 
 
       )}

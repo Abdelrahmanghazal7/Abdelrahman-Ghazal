@@ -36,6 +36,15 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #070707;
+  z-index: 9999999;
+}
+
 .cursor {
   position: absolute;
   z-index: 99999;

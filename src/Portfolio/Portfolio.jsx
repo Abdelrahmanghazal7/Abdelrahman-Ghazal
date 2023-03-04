@@ -26,6 +26,7 @@ const Portfolio = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
   return (
 
     <m.div initial={{ opacity: 0 }}
@@ -44,7 +45,8 @@ const Portfolio = () => {
         options={{
           style: {
             position: "absolute",
-            height: "443%",
+            height: "500%",
+            top: "500px",
           },
           fpsLimit: 120,
           interactivity: {

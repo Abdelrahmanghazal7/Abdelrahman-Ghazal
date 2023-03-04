@@ -162,25 +162,6 @@
                0 0 160px rgb(19, 19, 19);
 }
 
-.heading-sec__sub {
-  position: relative;
-  margin-top: 115px;
-  padding-bottom: 80px;
-  width: 100%;
-  text-align: center;
-  color: #e7e7e7;
-  text-transform: uppercase;
-  font-size: .8em;
-  filter: blur(.6px);
-  font-weight: 100;
-  text-transform: initial;
-  text-shadow: 0 0 10px rgba(255,255,255,1),
-               0 0 20px rgba(255,255,255,1),
-               0 0 40px rgba(255,255,255,1),
-               0 0 80px rgba(255,255,255,1),
-               0 0 160px rgba(255,255,255,1);
-}
-
 .brace{
   width: 130px;
 }
@@ -195,7 +176,7 @@
     text-shadow: -4px 1px black;
    }
 
-  .heading-sec__sub {
+  #sub {
     margin-top: 120px;
   }
      .heading-main{
@@ -240,7 +221,7 @@
     left: 46%;
   }
   
-  .heading-sec__sub {
+  #sub {
     margin-top: 120px;
   }
   
@@ -352,7 +333,7 @@
      left: 46%;
    }
    
-   .heading-sec__sub {
+   #sub {
      margin-top: 110px;
    }
    
@@ -373,11 +354,12 @@
     height: 70px;
   }
 
-  .heading-sec__sub {
-    padding-bottom: 200px;
+  #sub {
     font-family: 'Font Awesome 5 Free';
-    font-size: small;
     line-height: 2.3;
+    font-size: 10px;
+    margin-top: 105px;
+    padding-bottom: 100px;
   }
 
   .projects__row-content-desc {
@@ -399,11 +381,6 @@
 .heading-secc__main::after {
   top: 145px;
   left: 43%;
-}
-
-.heading-sec__sub {
-  margin-top: 105px;
-  padding-bottom: 100px;
 }
 
 .brace{
@@ -451,7 +428,7 @@
  }
 
  .heading-main{
-  top: 121px;
+  top: 93px;
   right: 56px;
   font-size: 35px;
 }
@@ -461,13 +438,15 @@
    left: 44%;
  }
  
- .heading-sec__sub {
+ #sub {
    margin-top: 100px;
  }
  
  .brace{
    width: 50px;
  }
+
+ 
 }
 
 @media (max-width: 300px) {
@@ -485,7 +464,7 @@
   }
 
   .heading-main{
-    top: 92px;
+    top: 63px;
     right: 45px;
     font-size: 25px;
   }
@@ -499,13 +478,12 @@
      top: 100px;
      left: 45%;
      height: 5px;
-  width: 2rem;
+     width: 2rem;
    }
    
-   .heading-sec__sub {
+   #sub {
      margin-top: 50px;
      font-size: 10px;
-     padding-bottom: 60px;
    }
    
    .brace{

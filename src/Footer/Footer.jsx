@@ -1,9 +1,23 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Footer.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Footer = () => {
+
+    // Download button is hidden at the beginning
+    const [showButton, setShowButton] = useState(false);
+
+    useEffect(() => {
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          setShowButton(true);
+        } else {
+          setShowButton(false);
+        }
+      });
+    }, []);
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -64,6 +78,13 @@ const Footer = () => {
                   <i className="fa fa-linkedin"></i>
                 </a>
               </span>
+
+              <span>
+              {showButton && (
+                <a href="#" download class="download-btn"><i class="fa fa-download"></i></a>
+                )}
+              </span>
+
             </div>
           </div>
         </div>
@@ -71,8 +92,6 @@ const Footer = () => {
         <div className="row">
           <div className="right col-lg-12">
             <div id="hr"></div>
-
-
             <p className='final'>&copy;<span className='credit'>Abdelrahman Ghazal</span> - 2022</p>
           </div>
         </div>
