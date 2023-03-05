@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import "./Skills.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Animation from '../Animation/Animation.js';
 
 const Skills = () => {
   useEffect(() => {
@@ -9,6 +10,9 @@ const Skills = () => {
   }, []);
   return (
     <div id="skills" className="container py-5">
+
+      <Animation />
+
       <h1 className='skll'>My Skills</h1>
       <div className="row py-3">
         <div className="col-md-6">

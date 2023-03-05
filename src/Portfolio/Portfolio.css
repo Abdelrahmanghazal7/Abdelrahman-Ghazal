@@ -11,11 +11,12 @@
 }
 
 .projects__row-content-desc {
-  color: #444444;
+  color: black;
   line-height: 1.7;
   font-weight: 700;
   max-width: 70%;
   margin-left: 100px;
+  font-family: cursive;
 }
 
 .collaps {

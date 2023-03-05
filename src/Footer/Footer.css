@@ -113,27 +113,12 @@ footer p {
 }
 
 .download-btn{
-  background-color: none;
-  color: white;
-  text-decoration: none;
-  border-radius:50%;
-  bottom: 90px;
-  right: -20px;
+  bottom: 300px;
+  right: -45px;
   width: 50px;
   height: 50px;
   z-index: 9999;
   position: fixed;
-}
-
-.download-btn i{
-  color: black;
-  position: relative;
-  left: 10px;
-  top: 3px;
-}
-
-.download-btn i:hover{
-  color: rgb(236, 201, 0);
 }
 
 @media screen and (min-width:760px) and (max-width:991px) {
@@ -168,6 +153,10 @@ footer p {
 
   footer .icons i {
     font-size: 30px;
+  }
+
+  .download-btn{
+    right: -45px;
   }
 
 }
@@ -288,5 +277,9 @@ footer p {
 
   .final {
     font-size: 10px;
+  }
+
+  .download-btn{
+    right: -31px;
   }
 }

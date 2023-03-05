@@ -14,10 +14,10 @@ const Education = () => {
           <h2 id="fw-normal">Education</h2>
           <ul className="timeline mt-4 pr-md-5">
             <li>
-              <div className="title">2022</div>
+              <div className="title">2021</div>
               <div className="details">
-                <h5>Front-End Development</h5>
-                <small className="fg-theme">Mag Camp</small>
+                <h5>CS50</h5>
+                <small className="fg-theme">Online Course</small>
                 <p>using coding languages like HTML, CSS, and JavaScript
                   to construct web designs, also involved in building
                   systems, developing software architecture, and
@@ -25,17 +25,16 @@ const Education = () => {
               </div>
             </li>
             <li>
-              <div className="title">2021</div>
+              <div className="title">2022</div>
               <div className="details">
-                <h5>CS50</h5>
-                <small className="fg-theme">Online Course</small>
+                <h5>Front-End Development</h5>
+                <small className="fg-theme">Mag Camp</small>
                 <p>Includs Computer Science for Web Programming - a more
                   in-depth look at HTML, CSS, and JavaScript, as well as
-                  frameworks including Flask and Django Introduction to
+                  frameworks including Reactjs and Angular Introduction to
                   Artificial Intelligence with Python - covers search
                   algorithms, machine learning, Introduction to Game
-                  Development - teaches 2D game engines, as well as 2D and
-                  3D game principles.</p>
+                  Development.</p>
               </div>
             </li>
           </ul>
@@ -48,17 +47,19 @@ const Education = () => {
               <div data-aos="flip-left" className="skills__skill">HTML</div>
               <div data-aos="flip-left" className="skills__skill">CSS</div>
               <div data-aos="flip-left" className="skills__skill">JavaScript</div>
-              <div data-aos="flip-left" className="skills__skill">React</div>
+              <div data-aos="flip-left" className="skills__skill">Reactjs</div>
               <div data-aos="flip-left" className="skills__skill">SASS</div>
+              <div data-aos="flip-left" className="skills__skill">SCSS</div>
               <div data-aos="flip-left" className="skills__skill">Bootstrab</div>
               <div data-aos="flip-left" className="skills__skill">TypeScript</div>
               <div data-aos="flip-left" className="skills__skill">API</div>
               <div data-aos="flip-left" className="skills__skill">OOP</div>
               <div data-aos="flip-left" className="skills__skill">GIT</div>
               <div data-aos="flip-left" className="skills__skill">Github</div>
-              <div data-aos="flip-left" className="skills__skill">Responsive Design</div>
               <div data-aos="flip-left" className="skills__skill">SEO</div>
+              <div data-aos="flip-left" className="skills__skill">Responsive Design</div>
               <div data-aos="flip-left" className="skills__skill">Terminal</div>
+              <div data-aos="flip-left" className="skills__skill">Node.js</div>
             </div>
           </div>
 

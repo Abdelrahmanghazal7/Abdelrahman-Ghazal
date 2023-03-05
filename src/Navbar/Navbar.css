@@ -10,6 +10,7 @@
   z-index: 9;
   transition: .7s;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  font-family: "Audiowide", sans-serif;
 }
 
 /* .navbar::before {
@@ -191,6 +192,6 @@
 @media screen and (max-width: 300px) {
 
   .image {
-    margin-left: -30px;
+    margin-left: 10px;
   }
 }

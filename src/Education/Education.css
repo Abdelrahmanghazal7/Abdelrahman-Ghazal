@@ -71,6 +71,10 @@
   color: #000000;
 }
 
+.details p {
+  font-family: cursive;
+}
+
 .timeline li .details small {
   display: block;
   font-weight: 500;
@@ -117,7 +121,12 @@
 
   .skills {
     margin-top: 70px;
-    margin-left: 10px;
+    margin-left:10px;
+  }
+
+  .skills__skill {
+    margin-bottom: 20px;
+    margin-right: 10px;
   }
 
   .logos {
@@ -129,14 +138,14 @@
 @media (max-width: 550px) {
 
   .logos {
-    margin-left: 100px;
+    margin-left: 120px;
   }
 }
 
 @media only screen and (max-width: 412px) {
 
   .logos {
-    margin-left: 50px;
+    margin-left: 40px;
   }
 }
 
@@ -155,9 +164,22 @@
 
 @media only screen and (max-width: 300px) {
 
-  .timeline li .details h5,
-  .timeline li .details p {
+
+  #fw-normal {
+    font-size: 40px;
+  }  
+
+ .details h5{
     font-size: 15px;
+  }
+
+  .timeline li .title {
+    width: 110px;
+    font-size: 17px;
+  }  
+
+  .details p {
+    font-size: 12px;
   }
 
   .skills {

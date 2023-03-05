@@ -54,8 +54,9 @@ export default class PauseOnHover extends Component {
           <div className="services-block">
             <div className="i"><IoIosBrowsers /></div>
             <span>UI/UX DESIGN</span>
-            <p className="separator">There are many variations of passages of
-              Lorem Ipsum available</p>
+            <p className="separator">
+            Professional designes Aesthetically pleasing branding strategies help them effectively reach more customers.
+            </p>
           </div>
 
 
@@ -63,8 +64,9 @@ export default class PauseOnHover extends Component {
           <div className="services-block">
             <div className="i"><FaLightbulb /></div>
             <span>BRAND IDENTITY</span>
-            <p className="separator">To an English person, it will seem like
-              simplified English,told me what </p>
+            <p className="separator">
+              The brand identifies itself, tagline positioning and personality by creating better user experiences.
+            </p>
           </div>
 
 
@@ -72,24 +74,27 @@ export default class PauseOnHover extends Component {
           <div className="services-block">
             <div className="i"><BsFillCpuFill /></div>
             <span>WEB DESIGN</span>
-            <p className="separator">There are many variations of passages of
-              Lorem Ipsum available</p>
+            <p className="separator">
+              Including gathering and evaluate user requirements, designing elements and building navigation components.
+            </p>
           </div>
 
 
           <div className="services-block">
             <div className="i"><IoAnalyticsOutline /></div>
             <span>Analytics</span>
-            <p className="separator">There are many variations of passages of
-              Lorem Ipsum available</p>
+            <p className="separator">
+              Collaborating with product managers and engineers to gather requirements from users before designing.
+            </p>
           </div>
 
 
           <div className="services-block">
             <div className="i"><BsAppIndicator /></div>
             <span>WEB APPS</span>
-            <p className="separator">To an English person, it will seem like
-              simplified English,told me what </p>
+            <p className="separator">
+              Using illustrate skills to design user interface elements mockups and prototypes using process flows, or sitemaps.
+            </p>
           </div>
 
 

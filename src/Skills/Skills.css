@@ -50,27 +50,44 @@
   #skills {
     margin-top: -100px;
   }
-}
 
-@media (max-width: 480px) {
+  .progress {
+    width: 80%;
+    margin: auto;
+  }
+
+  .hd {
+   margin-left: 40px;
+  }  
+
+  .caption {
+    margin-left: 60px;
+  }
 
   #des {
     margin-top: 30px;
   }
+  
 }
 
 @media (max-width: 300px) {
 
-  .progress {
-    height: 1.3rem;
+  #skills {
+    margin-top: -100px;
   }
 
-  .progress-bar {
-    border-radius: 30px;
-    font-size: 14px;
-    background-color: rgb(26, 26, 26);
-    color: #b46aff;
-    font-weight: bolder;
+  .progress {
+    height: 1.3rem;
+    width: 100%;
   }
+
+  .hd {
+   margin-left: 0;
+  }  
+
+  .caption {
+    margin-left: 10px;
+  }
+
 
 }

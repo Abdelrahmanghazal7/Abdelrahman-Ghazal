@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Animation from '../Animation/Animation.js';
 
 function Contact() {
 
@@ -84,9 +83,6 @@ function Contact() {
     return (
 
         <div id="contact">
-
-                    <Animation />
-
             <div className="container">
                 <div className="contact-block1">
                     <div className="row">
@@ -97,7 +93,7 @@ function Contact() {
                       heading-sec__mb-med">
                                     <span className="heading-sec__main
                         heading-sec__main--lt"><h1>Contact</h1></span>
-                                    <span id='i_t' className="heading-sec__sub
+                                    <span className="heading-sec__sub
                         heading-sec__sub--lt">
                                         Feel free to Contact me by submitting the
                                         form below and

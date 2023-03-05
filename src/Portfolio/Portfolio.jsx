@@ -119,7 +119,7 @@ const Portfolio = () => {
       <section id="projects" className="projects sec-pad">
         <div className="main-container">
           <h2 className="heading heading-sec heading-sec__mb-bg">
-          <span className="heading-main">Projects</span>
+            <span className="heading-main">Projects</span>
             <span className="heading-secc__main">
               <img className='brace' src='images/left brace.png' alt='left'></img>
               Projects
@@ -146,11 +146,8 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      BeBlack is a platform that I created where people
-                      can join the
-                      community of their favorite youtube channels and
-                      can be part of
-                      the conversation.
+                      BeBlack Shows your beliefs, skills, qualifications, education, training, and experiences.
+                      It provides insight into your personality and work ethic.
                     </p>
                   </div>
                   <div>
@@ -172,8 +169,8 @@ const Portfolio = () => {
                   <div>
                     <p className="projects__row-content-desc">
                       Univers is a Portfolio template that I created targeting
-                      the restaurant
-                      and food industry which anyone can use to
+                      the personal qualifications
+                      which anyone can use to
                       present their business
                       online.
                     </p>
@@ -224,11 +221,9 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      Bizza is a multiservice logistics and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
+                      Bizza is a company has limited liability
+                      as members perform or fail to discharge their duty according to the publicly declared incorporation,
+                      or published policy.
                     </p>
                   </div>
                   <div>
@@ -254,11 +249,9 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      Bldr is a multiservice logistics and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
+                      Bldr is a company or enterprise was created to construct various buildings,
+                      properties, housing, roads
+                      and other construction projects.
                     </p>
                   </div>
                   <div>
@@ -311,7 +304,7 @@ const Portfolio = () => {
                     <p className="projects__row-content-desc">
                       Roxy is a platform that I created where people
                       can join the
-                      community of their favorite youtube channels and
+                      community of their favorite music channels and
                       can be part of
                       the conversation.
                     </p>
@@ -324,8 +317,8 @@ const Portfolio = () => {
               </div>
               <div data-aos="fade-up" className="projects__row">
                 <div className="projects__row-img-cont">
-                  <a href="#"><img
-                    src="images/portfolio/10.png"
+                  <a href="https://commerce-shop-react.vercel.app/"><img
+                    src="images/portfolio/13.png"
                     alt="Software Screenshot"
                     className="projects__row-img"
                     loading="lazy"
@@ -334,16 +327,64 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      Gjfox is a multiservice logistics and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
+                      Services focus on our clients
+                      most critical issues and opportunities: strategy, marketing, organization, operations and digital &
+                      advanced analytics.
                     </p>
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='#' target='_blank'>Gjfox</a>
+                      href='https://commerce-shop-react.vercel.app/' target='_blank' rel="noreferrer">Consulting-Company</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="jekt">
+              <div data-aos="fade-up" className="projects__row">
+                <div className="projects__row-img-cont">
+                  <a href="https://portfolio-theme-react.vercel.app/"><img
+                    src="images/portfolio/11.png"
+                    alt="Software Screenshot"
+                    className="projects__row-img"
+                    loading="lazy"
+                  /></a>
+                </div>
+                <div className="projects__row-content">
+                  <div>
+                    <p className="projects__row-content-desc">
+                      A portfolio showcase of your talents.
+                      a collection of drawings, documents, etc. that represent a person's, especially an artist's work
+                    </p>
+                  </div>
+                  <div>
+                    <a className='btn--med btn--theme dynamicBgClr'
+                      href='https://portfolio-theme-react.vercel.app/' target='_blank' rel="noreferrer">React-Portfolio</a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" className="projects__row">
+                <div className="projects__row-img-cont">
+                  <a href="https://commerce-shop-react.vercel.app/"><img
+                    src="images/portfolio/12.png"
+                    alt="Software Screenshot"
+                    className="projects__row-img"
+                    loading="lazy"
+                  /></a>
+                </div>
+                <div className="projects__row-content">
+                  <div>
+                    <p className="projects__row-content-desc">
+                      E-Commerce is a online shop and company.
+                      I created their website from scratch using the
+                      react tools I know Integration with Social Media.
+                    </p>
+                  </div>
+                  <div>
+                    <a className='btn--med btn--theme dynamicBgClr'
+                      href='https://commerce-shop-react.vercel.app/' target='_blank' rel="noreferrer">React-Commerce Shop</a>
                   </div>
                 </div>
               </div>
@@ -389,11 +430,8 @@ const Portfolio = () => {
                 <div className="projects__row-content">
                   <div>
                     <p className="projects__row-content-desc">
-                      Kudzoka is a multiservice logistics and
-                      transport company and
-                      I created their website from scratch using the
-                      frontend tools I
-                      know.
+                      Kudzoka is a standalone web page, created specifically for a marketing or advertising campaign.
+                      It’s where a visitor lands after they click on a link.
                     </p>
                   </div>
                   <div>

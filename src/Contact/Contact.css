@@ -112,7 +112,7 @@
   transition: transform .3s;
   padding: 25px;
   font-size: 19px;
-  border: none;
+  border: 1px solid black;
 }
 
 .botn:hover {
@@ -291,9 +291,9 @@
     font-size: 15px;
   }
 
-  #sub {
-    margin-top: 50px;
-    font-size: 10px;
+  .heading-sec__sub {
+    margin-top: 120px;
+    font-size: 11px;
   }
 
   .heading-sec__main h1 {
@@ -313,10 +313,10 @@
   .contact__form-container {
     padding: 1rem;
     width: 100%;
-    margin-top: 7px;
   }
 
-  #i_t {
-    font-size: 11px;
+  .contact__form-field {
+    margin-bottom: 1rem;
   }
+  
 }

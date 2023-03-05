@@ -86,24 +86,37 @@
 
 @media screen and (max-width: 540px) {
 
-    .counter::before {
-        height: 30%;
+    .counter {
+        padding: 60px 0;
+        margin-bottom: -110px;
     }
 
+    .counter::before {
+        margin-top: -60px;
+        height: 25%;
+    }
+
+    .counter h1 {
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 420px) {
 
     .counter::before {
-        height: 25%;
+        height: 20%;
     }
 
 }
 
 @media screen and (max-width: 412px) {
+    
+    .counter {
+        margin-bottom: -90px;
+    }
 
     .counter::before {
-        height: 24%;
+        height: 20%;
     }
 
 }
@@ -116,10 +129,22 @@
 
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
 
     .counter::before {
-        height: 33%;
+        height: 21%;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    
+    .counter {
+        margin-bottom: -60px;
+    }
+
+    .counter::before {
+        height: 27%;
     }
 
 }
@@ -127,15 +152,21 @@
 @media screen and (max-width: 360px) {
 
     .counter::before {
-        height: 30%;
+        height: 24%;
     }
 
 }
 
 @media screen and (max-width: 300px) {
 
+    .counter {
+        padding: 50px 0;
+        margin-bottom: -40px;
+    }
+
     .counter::before {
-        height: 35%;
+        margin-top: -50px;
+        height: 26%;
     }
 
 }
