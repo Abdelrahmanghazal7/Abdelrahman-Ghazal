@@ -45,8 +45,8 @@ const Portfolio = () => {
         options={{
           style: {
             position: "absolute",
-            height: "500%",
-            top: "500px",
+            height: "300%",
+            top: "800px",
           },
           fpsLimit: 120,
           interactivity: {
