@@ -279,6 +279,7 @@
 }
 
 @media (max-width: 375px) {
+
     .circle {
         left: 268px;
     }
@@ -287,6 +288,15 @@
         margin-top: -160px;
         height: 120px;
     }
+
+    #lol1 p {
+        max-width: 200px;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+    
 }
 
 @media (max-width: 360px) {
