@@ -43,11 +43,11 @@ const Portfolio = () => {
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
-          style: {
-            position: "absolute",
-            height: "300%",
-            top: "800px",
-          },
+          // style: {
+          //   position: "absolute",
+          //   height: "300%",
+          //   top: "800px",
+          // },
           fpsLimit: 120,
           interactivity: {
             events: {
