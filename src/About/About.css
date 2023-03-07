@@ -66,6 +66,14 @@
   }
 }
 
+@media (max-width: 325px) {
+
+  .about-descr .p-heading {
+    font-size: 27px;
+  }
+
+}
+
 @media (max-width: 300px) {
 
   .about-descr .p-heading {

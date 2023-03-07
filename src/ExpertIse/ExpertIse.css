@@ -336,8 +336,25 @@
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 325px) {
 
+    .elementor-heading-title {
+        font-size: 45px;
+    }
+
+    .circle {
+        left: 230px;
+        width: 25px;
+        height: 25px;
+        top: 75px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+  }  
+
+@media (max-width: 300px) {
 
     #expertse {
         margin-bottom: -50px;

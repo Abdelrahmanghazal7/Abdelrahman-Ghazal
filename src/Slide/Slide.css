@@ -161,6 +161,13 @@
 
 }
 
+@media (max-width: 325px) {
+
+  .services-block .i {
+    margin-left: 140px;
+  }
+}  
+
 @media (max-width: 300px) {
 
   .services-block .i {

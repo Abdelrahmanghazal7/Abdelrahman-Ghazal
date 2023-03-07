@@ -249,6 +249,17 @@ font-size: 45px;
   }
 }
 
+@media (max-width: 325px) {
+
+  .download-btn{
+    right: -18px;
+  }
+
+  .fa-download:before {
+    font-size: 40px;
+    }    
+
+}
 
 @media screen and (max-width:300px) {
 
