@@ -420,7 +420,7 @@ const Portfolio = () => {
               </div>
               <div data-aos="fade-up" className="projects__row">
                 <div className="projects__row-img-cont">
-                  <a href="https://kudzoka-chi.vercel.app/"><img
+                  <a href="https://kudzoka-dusky.vercel.app/"><img
                     src="images/portfolio/6.png"
                     alt="Software Screenshot"
                     className="projects__row-img"
@@ -436,7 +436,7 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://kudzoka-chi.vercel.app/' target='_blank' rel="noreferrer">Kudzoka</a>
+                      href='https://kudzoka-dusky.vercel.app/' target='_blank' rel="noreferrer">Kudzoka</a>
                   </div>
                 </div>
               </div>
