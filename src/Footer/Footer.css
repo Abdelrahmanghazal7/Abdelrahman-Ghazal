@@ -177,6 +177,42 @@ footer p {
   }
 }
 
+@media (max-width: 480px) {
+  .conect {
+    margin-left: 40px;
+  }
+}
+
+
+@media screen and (max-width:395px) {
+
+  .conect {
+    margin-left: 30px;
+  }
+
+  .social {
+    margin-left: 90px;
+    padding-top: 10px;
+  }
+
+  footer .icons {
+    margin-left: 30px;
+  }
+
+  footer .icons i {
+    font-size: 25px;
+  }
+
+  .splash {
+    margin-top: -43px;
+    margin-left: 78px;
+  }
+
+  .right {
+    font-size: 19px;
+  }
+}
+
 @media screen and (max-width:390px) {
 
   .social {
@@ -208,6 +244,58 @@ footer p {
   }
 }
 
+@media screen and (max-width:375px) {
+  .conect {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .conect {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:353px) {
+  .social {
+    margin-left: 90px;
+    padding-top: 10px;
+    font-size: 27px;
+    margin-bottom: -10px;
+  }
+
+  footer .icons span a {
+    margin: 0 25px 0 0;
+  }
+
+  footer .icons {
+    margin-left: 55px;
+  }
+
+  footer .icons i {
+    font-size: 21px;
+  }
+
+  .splash {
+    margin-left: 80px;
+    margin-top: -32px;
+    width: 80px;
+  }
+
+  .right {
+    font-size: 14px;
+  }
+
+  .final {
+    font-size: 10px;
+  }
+
+  .conect {
+    margin-left: 20px;
+  }
+}
+
+
 @media screen and (max-width:320px) {
 
   .social {
@@ -235,16 +323,16 @@ footer p {
     width: 80px;
   }
 
-  .mb-30 {
-    font-size: 26px;
-  }
-
   .right {
     font-size: 14px;
   }
 
   .final {
     font-size: 10px;
+  }
+
+  .conect {
+    margin-left: 5px;
   }
 
 }
@@ -266,6 +354,72 @@ footer p {
     margin-left: 60px;
     margin-top: -32px;
     width: 80px;
+  }
+
+}
+
+@media screen and (max-width:290px) {
+
+  .social {
+    margin-left: 90px;
+    padding-top: 10px;
+    font-size: 27px;
+    margin-bottom: -10px;
+  }
+
+  footer .icons span a {
+    margin: 0 25px 0 0;
+  }
+
+  footer .icons {
+    margin-left: 55px;
+  }
+
+  footer .icons i {
+    font-size: 21px;
+  }
+ 
+  .splash {
+    margin-left: 80px;
+    margin-top: -32px;
+    width: 80px;
+  }
+
+  .right {
+    font-size: 14px;
+  }
+
+  .final {
+    font-size: 10px;
+  }
+
+  .conect {
+    margin-left: 5px;
+  }
+
+}
+
+@media screen and (max-width:240px) {
+
+  .social {
+    margin-left: 53px;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-bottom: -10px;
+  }
+
+  footer .icons {
+    margin-left: 19px;
+  }
+
+  footer .icons i {
+    font-size: 17px;
+  }
+ 
+  .splash {
+    margin-left: 45px;
+    margin-top: -25px;
+    width: 70px;
   }
 
 }

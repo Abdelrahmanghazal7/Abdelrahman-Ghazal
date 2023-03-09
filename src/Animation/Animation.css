@@ -144,3 +144,11 @@
 	}
 
 }
+
+@media screen and (max-width:240px) {
+
+	.box {
+		top: 5500px;
+	}
+
+}

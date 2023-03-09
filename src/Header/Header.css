@@ -234,6 +234,10 @@ header::after {
     background-position: -410px;
   }
 
+  header::after {
+    bottom: -2px;
+  }
+
   .header-content h1 {
     font-size: 17px;
   }

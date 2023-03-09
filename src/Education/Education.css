@@ -223,3 +223,10 @@
     margin-left: 30px;
   }
 }
+
+
+@media screen and (max-width:240px) {
+  .logos {
+    margin-left: 10px;
+  }
+}
