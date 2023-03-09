@@ -49,13 +49,6 @@ footer .inner {
   -webkit-text-fill-color: transparent;
 }
 
-.fa-instagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .fa-whatsapp {
   color: #036100;
 }
@@ -112,25 +105,6 @@ footer p {
   margin-bottom: -1px;
 }
 
-.download-btn{
-  position: fixed;
-  bottom: 130px;
-  right: -15px;
-  z-index: 9999;
-}
-
-.fa-download:before {
-font-size: 45px;
-}
-
-.fa-download {
-  color: rgb(0, 0, 0);
-}
-
-.fa-download:hover {
-  color: gold;
-}
-
 @media screen and (min-width:760px) and (max-width:991px) {
 
   .mb-30 {
@@ -165,10 +139,6 @@ font-size: 45px;
     font-size: 30px;
   }
 
-  .download-btn{
-    right: -20px;
-  }
-
 }
 
 @media screen and (max-width:759px) {
@@ -189,22 +159,15 @@ font-size: 45px;
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:715px) {
 
   .conect {
     margin-left: 70px;
   }
 
-  .details {
-    margin-left: 90px;
+  #deto {
+    display: none;
   }
-
-  .mb-30 {
-    font-size: 34px;
-    padding-bottom: 20px;
-    margin-top: -20px;
-  }
-
 }
 
 @media screen and (max-width:500px) {
@@ -212,11 +175,6 @@ font-size: 45px;
   .conect {
     margin-left: 0;
   }
-
-  .details {
-    margin-left: 7px;
-  }
-
 }
 
 @media screen and (max-width:390px) {
@@ -239,32 +197,21 @@ font-size: 45px;
     margin-left: 88px;
   }
 
-  .mb-30 {
-    padding-bottom: 20px;
-    font-size: 30px;
-  }
-
   .right {
     font-size: 19px;
   }
 }
 
-@media (max-width: 325px) {
-
-  .download-btn{
-    right: -18px;
+@media screen and (max-width:385px) {
+  .conect {
+    margin-left: 20px;
   }
-
-  .fa-download:before {
-    font-size: 40px;
-    }    
-
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:320px) {
 
   .social {
-    margin-left: 70px;
+    margin-left: 90px;
     padding-top: 10px;
     font-size: 27px;
     margin-bottom: -10px;
@@ -275,7 +222,7 @@ font-size: 45px;
   }
 
   footer .icons {
-    margin-left: 35px;
+    margin-left: 55px;
   }
 
   footer .icons i {
@@ -283,7 +230,7 @@ font-size: 45px;
   }
 
   .splash {
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: -32px;
     width: 80px;
   }
@@ -300,7 +247,25 @@ font-size: 45px;
     font-size: 10px;
   }
 
-  .download-btn{
-    right: -35px;
+}
+
+@media screen and (max-width:300px) {
+
+  .social {
+    margin-left: 70px;
+    padding-top: 10px;
+    font-size: 27px;
+    margin-bottom: -10px;
   }
+
+  footer .icons {
+    margin-left: 35px;
+  }
+
+  .splash {
+    margin-left: 60px;
+    margin-top: -32px;
+    width: 80px;
+  }
+
 }

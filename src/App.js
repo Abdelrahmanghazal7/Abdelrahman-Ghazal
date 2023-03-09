@@ -28,13 +28,13 @@ const App = () => {
     <m.div initial={{ opacity: 0 }}
       animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 0.75, ease: "easeOut" }} exit={{ opacity: 0 }}>
 
-      <Cursor />
-
       {loading ?
         <div className="preloader">
           <CircleLoader color={'#9b37ff'} loading={loading} size={100} height={100} margin={10} />
         </div> :
         <>
+
+      <Cursor />
 
       <Navbar />
 

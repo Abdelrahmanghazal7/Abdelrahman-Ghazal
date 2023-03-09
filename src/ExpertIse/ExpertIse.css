@@ -193,6 +193,13 @@
    
 }
 
+@media (max-width: 800px) {
+
+    .circle {
+        left: 516px;
+    }
+}
+
 @media (max-width: 770px) {
 
     .circle {
@@ -200,11 +207,32 @@
     }
 }
 
-
-@media (max-width: 550px) {
+@media (max-width: 712px) {
 
     .circle {
-        left: 388px;
+        left: 473px;
+    }
+
+    #lol2 p {
+        max-width: 400px;
+    }
+
+    .bref:after {
+        margin-top: -100px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:640px) {
+    .circle {
+        left: 437px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .circle {
+        left: 418px;
     }
 
     #lol1 p {
@@ -214,6 +242,13 @@
     .bref:after {
         margin-top: -100px;
         height: 70px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .circle {
+        left: 388px;
     }
 }
 
@@ -278,6 +313,15 @@
 
 }
 
+@media (max-width: 385px) {
+
+    .circle {
+        left: 276px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
 @media (max-width: 375px) {
 
     .circle {
@@ -313,7 +357,9 @@
     }
 
     .circle {
-        left: 252px;
+        width: 25px;
+        height: 25px;
+        left: 259px;
         top: 80px;
     }
 
@@ -352,6 +398,20 @@
     .card-title {
         font-size: 24px;
     }
+
+    .bref:after {
+        margin-top: -170px;
+        height: 140px;
+    }
+
+    .card-title {
+        font-size: 23px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+   
   }  
 
 @media (max-width: 300px) {

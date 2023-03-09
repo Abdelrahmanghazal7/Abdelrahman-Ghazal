@@ -80,6 +80,36 @@ header::after {
   z-index: 9;
 }
 
+#fa-4x {
+  background: black;
+  background-clip: text;
+}
+
+.icon-3d {
+  animation: icon3d 200ms 3;
+}
+.icon-3d:hover {
+  animation: icon3d 300ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px rgb(244, 67, 54), -5px -6px rgb(33, 150, 243);
+  }
+  25% {
+    text-shadow: -5px -6px rgb(244, 67, 54), 5px 4px rgb(33, 150, 243);
+  }
+  50% {
+    text-shadow: 5px -4px rgb(244, 67, 54), -8px 4px rgb(33, 150, 243);
+  }
+  75% {
+    text-shadow: -8px -4px rgb(244, 67, 54), -5px -4px rgb(33, 150, 243);
+  }
+  100% {
+    text-shadow: -5px 0 rgb(244, 67, 54), 5px -4px rgb(33, 150, 243);
+  }
+}
+
 @media screen and (max-width:920px) {
   header {
     background-position: -750px;
@@ -103,6 +133,40 @@ header::after {
 
   .header-content .list-social li i {
     font-size: 35px;
+  }
+
+}
+
+@media screen and (max-width:712px) {
+
+  .header-content h1 {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width:640px) and (max-width:640px) {
+
+  header {
+    background-position: 0;
+  }
+
+  .content {
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+header::before {
+  height: 200px;
+}
+
+header::after {
+  height: 200px;
+}
+
+  .header-content h1 {
+    font-size: 33px;
   }
 
 }
@@ -152,11 +216,22 @@ header::after {
   header {
     background-position: -500px;
   }
+
+  .header-content h1 {
+    font-size: 24px;
+    margin-top: -90px;
+  }
+
+  .header-content p {
+    margin-top: -40px;
+    font-size: 15px;
+  }
+
 }
 
 @media screen and (max-width:360px) {
   header {
-    background-position: -570px;
+    background-position: -410px;
   }
 
   .header-content h1 {

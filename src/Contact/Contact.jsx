@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Contact.css";
+import "./Star.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import emailjs from '@emailjs/browser';
@@ -127,6 +128,10 @@ function Contact() {
 
                                         <div>
                                             <button type='submit' className="botn" name="submit">Send message</button>
+                    
+                                            <div id="stars"></div>
+                                            <div id="stars2"></div>
+                                            <div id="stars3"></div>
                                         </div>
 
                                     </form>

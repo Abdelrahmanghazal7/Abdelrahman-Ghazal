@@ -135,7 +135,7 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 712px) {
 
   .logos {
     margin-left: 120px;
@@ -146,6 +146,12 @@
 
   .logos {
     margin-left: 50px;
+  }
+}
+
+@media screen and (max-width:385px) {
+  .logos {
+    margin-left: 30px;
   }
 }
 
@@ -160,6 +166,24 @@
     margin-left: 25px;
     margin-top: 30px;
   }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .logos {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .logos {
+    margin-left: 25px;
+  }
+
+  .logos img {
+    width: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 300px) {

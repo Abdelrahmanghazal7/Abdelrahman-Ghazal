@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Footer.css";
+import "./CV.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -25,7 +26,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="details col-lg-6">
+          <div id='deto' className="details col-lg-6">
             <h2 className="mb-30">GET IN TOUCH</h2>
             <div className="inner">
               <div className="left">
@@ -78,13 +79,15 @@ const Footer = () => {
                   <i className="fa fa-linkedin"></i>
                 </a>
               </span>
-              <span>
 
+              <span id="container">
                 {showButton && (
-                  <a href="CV.pdf" download title='Download CV' className="download-btn"><i className="fa-solid fa-download"></i></a>
+                  <a href="CV.pdf" download title='Download CV' className="btn-upload">
+                    <i className="fa-solid fa-download"></i>
+                  </a>
                 )}
-
               </span>
+
             </div>
           </div>
         </div>

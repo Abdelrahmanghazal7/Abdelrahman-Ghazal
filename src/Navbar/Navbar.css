@@ -100,6 +100,23 @@
   display: none;
 }
 
+
+@media screen and (max-width: 1070px) {
+
+  .nav-item {
+    margin-left: -10px;
+    font-size: 18px;
+  }
+
+
+  .image {
+    margin-left: 10px;
+    width: 130px;
+    height: 60px;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
 
   .nav-item .active {
@@ -161,19 +178,11 @@
   }
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (min-width:640px) and (max-width:640px) {
 
   .nav-item {
-    margin-left: -10px;
-    font-size: 18px;
-  }
-
-
-  .image {
-    margin-left: 10px;
-    width: 130px;
-    height: 60px;
-  }
+    height: 50px;
+  }  
 }
 
 @media screen and (max-width: 912px) {
