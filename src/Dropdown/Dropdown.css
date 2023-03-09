@@ -108,13 +108,15 @@ a {
   .dropdown-center {
     right: 145px;
   }
-}
 
-@media (max-width: 412px) {
-
-.dropdown-menu h3 {
-  margin-left: 11px;
-}
+  .dropdown-menu h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .dropdown-menu h3 span {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 360px) {

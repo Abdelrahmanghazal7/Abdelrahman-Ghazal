@@ -71,24 +71,19 @@ header::after {
   width: 50px;
 }
 
-.header-content .list-social li i {
+.header-content .list-social li .icxn {
   color: rgb(15, 15, 15);
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .list-social {
   z-index: 9;
 }
 
-#fa-4x {
-  background: black;
-  background-clip: text;
-}
-
-.icon-3d {
+.icxn{
   animation: icon3d 200ms 3;
 }
-.icon-3d:hover {
+.icxn:hover {
   animation: icon3d 300ms infinite;
 }
 
@@ -131,7 +126,7 @@ header::after {
     font-size: 48px;
   }
 
-  .header-content .list-social li i {
+  .header-content .list-social li .icxn {
     font-size: 35px;
   }
 
@@ -184,6 +179,16 @@ header::after {
     margin-top: 180px;
   }
 
+  header::before {
+    height: 300px;
+    top: -10px;
+  }
+  
+  header::after {
+    height: 300px;
+    bottom: -60px;
+  }
+
 }
 
 @media screen and (max-width:450px) {
@@ -201,13 +206,20 @@ header::after {
 
 }
 
-@media screen and (min-width:412px) and (max-width:449px) {
+@media screen and (min-width:411px) and (max-width:449px) {
   header {
     background-position: -720px;
   }
 
   .header-content h1 {
     font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width:412px) {
+  header {
+    background-position: -500px;
   }
 
 }
@@ -242,11 +254,39 @@ header::after {
     font-size: 17px;
   }
 
-  .header-content .list-social li i {
+  .header-content .list-social li .icxn {
     font-size: 20px;
   }
 
   .header-content p {
     font-size: 11px;
   }
+}
+
+@media screen and (max-width:240px) {
+  header {
+    background-position: -200px;
+  }
+
+
+  .header-content p {
+    font-size: 11px;
+  }
+
+  .content {
+    margin-top: 150px;
+  }
+
+  .header-content .list-social li {
+    width: 30px;
+  }
+
+  header::before {
+    height: 200px;
+  }
+  
+  header::after {
+    height: 200px;
+  }
+
 }
