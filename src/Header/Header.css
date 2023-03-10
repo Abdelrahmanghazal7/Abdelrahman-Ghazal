@@ -187,14 +187,15 @@ header::after {
   
   header::after {
     height: 300px;
-    bottom: -20px;
+    bottom: -60px;
   }
 
 }
 
 @media screen and (max-width:500px) {
   header {
-    background-position: -50px;
+    background-position: -280px;
+    margin-left: 100px;
     height: 89vh;
   }
 }
