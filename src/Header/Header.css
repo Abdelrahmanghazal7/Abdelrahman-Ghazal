@@ -199,16 +199,21 @@ header::after {
   }
 
   .mee {
-    padding-right: 7px;
+    padding-right: 4px;
   }
-  header::before {
+  /* header::before {
     height: 700px;
     top: 0;
-  }
+  } */
   
   header::after {
-    display: none;
+    height: 700px;
+    bottom: 0;
   }
+
+  /* header::after {
+    display: none;
+  } */
 
 
   
