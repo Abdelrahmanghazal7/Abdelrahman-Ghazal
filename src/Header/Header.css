@@ -198,15 +198,19 @@ header::after {
     height: 100vh;
   }
 
-    
-  header::after {
-    height: 1000px;
-    bottom: -200px;
-  }
-
   .mee {
     padding-right: 7px;
   }
+  header::before {
+    height: 700px;
+    top: 0;
+  }
+  
+  header::after {
+    display: none;
+  }
+
+
   
 }
 
