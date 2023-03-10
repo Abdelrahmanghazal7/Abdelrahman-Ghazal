@@ -260,10 +260,10 @@
         padding-top: 70px;
     }
 
-    .circle {
-        left: 97px;
+    /* .circle {
+        left: 297px;
         top: 75px;
-    }
+    } */
 
     .bref:after {
         margin-top: -100px;
@@ -299,9 +299,9 @@
 
 @media (max-width: 395px) {
 
-    .circle {
+    /* .circle {
         left: 276px;
-    }
+    } */
 
     .bref:after {
         margin-top: -140px;

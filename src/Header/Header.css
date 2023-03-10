@@ -207,6 +207,10 @@ header::after {
     bottom: 0;
     margin-bottom: -60px;
   }
+
+  .header-content .list-social li {
+    width: 40px;
+  }
 }
 
 @media screen and (max-width:450px) {
