@@ -207,10 +207,9 @@ header::after {
   } */
   
   header::after {
-    height: 700px;
+    height: 300px;
     bottom: 0;
-    margin-top: 
-    50px;
+    margin-bottom: -50px;
   }
 
   /* header::after {
