@@ -261,7 +261,7 @@
     }
 
     .circle {
-        left: 297px;
+        left: 97px;
         top: 75px;
     }
 
@@ -278,13 +278,6 @@
         margin-left: -20px;
     }
 
-}
-
-@media (max-width: 478px) {
-
-    .circle {
-        left: 300px;
-    }
 }
 
 
