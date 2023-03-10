@@ -211,9 +211,8 @@ header::after {
   }
   
   header::after {
-    /* height: 300px;
-    bottom: -60px; */
-    display: none;
+    height: 300px;
+    bottom: -160px;
   }
 
 }
