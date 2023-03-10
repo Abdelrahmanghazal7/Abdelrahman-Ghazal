@@ -406,6 +406,7 @@
     font-size: 17px;
     max-width: 100%;
     margin-left: 0;
+    font-family: 'Font Awesome 5 Free';  
   }
 
   .heading-secc__main {
@@ -433,6 +434,11 @@
    .brace{
      width: 80px;
    }
+
+}
+
+@media (max-width: 530px) {
+
 
 }
 
