@@ -247,9 +247,9 @@
 
 @media (max-width: 550px) {
 
-    .circle {
+    /* .circle {
         left: 388px;
-    }
+    } */
 }
 
 
@@ -260,13 +260,13 @@
         padding-top: 70px;
     }
 
-    /* .circle {
+    .circle {
         left: 297px;
         top: 75px;
-    } */
+    }
 
     .bref:after {
-        margin-top: -100px;
+        margin-top: -90px;
         height: 70px;
     }
 
@@ -299,9 +299,9 @@
 
 @media (max-width: 395px) {
 
-    /* .circle {
+    .circle {
         left: 276px;
-    } */
+    }
 
     .bref:after {
         margin-top: -140px;
