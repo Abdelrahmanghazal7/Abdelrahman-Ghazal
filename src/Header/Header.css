@@ -209,6 +209,8 @@ header::after {
   header::after {
     height: 700px;
     bottom: 0;
+    margin-top: 
+    50px;
   }
 
   /* header::after {
