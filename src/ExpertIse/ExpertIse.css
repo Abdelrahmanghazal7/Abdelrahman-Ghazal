@@ -260,7 +260,7 @@
     }
 
     .bref:after {
-       top: 300px;
+       top: 320px;
        height: 0;
     }
 
@@ -269,7 +269,7 @@
     }
 
     .card-text {
-font-size: 12px;
+font-size: 13px;
     }
 
 }
