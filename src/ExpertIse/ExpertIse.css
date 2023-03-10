@@ -256,15 +256,19 @@
 @media (max-width: 530px) {
 
     .circle {
-        margin-left: 20px;
+        margin-left: -20px;
     }
 
     .bref:after {
-       top: -20px;
+       top: -700px;
     }
 
     #lol2 p {
         max-width: 180px;
+    }
+
+    .card-text {
+font-size: 20px;
     }
 
 }
