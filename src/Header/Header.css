@@ -166,6 +166,7 @@ header::after {
 
 }
 
+
 @media screen and (max-width:550px) {
   header {
     background-position: -480px;
@@ -187,6 +188,32 @@ header::after {
   header::after {
     height: 300px;
     bottom: -60px;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  header {
+    background-position: -480px;
+  }
+
+  .header-content h1 {
+    font-size: 35px;
+  }
+
+  .content {
+    margin-top: 180px;
+  }
+
+  header::before {
+    height: 300px;
+    top: -10px;
+  }
+  
+  header::after {
+    /* height: 300px;
+    bottom: -60px; */
+    display: none;
   }
 
 }
