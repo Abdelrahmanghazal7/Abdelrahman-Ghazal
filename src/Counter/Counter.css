@@ -135,12 +135,19 @@
     }
 }
 
+@media screen and (max-width: 530px) {
+
+    .counter::before {
+        height: 36%;
+    }
+
+}
+
 @media screen and (max-width: 480px) {
 
     .counter::before {
         height: 21%;
     }
-
 }
 
 @media screen and (max-width: 420px) {

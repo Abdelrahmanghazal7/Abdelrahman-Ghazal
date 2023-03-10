@@ -68,6 +68,12 @@
 
 }
 
+@media screen and (max-width:530px) {
+  #container {
+margin-top: 50px;
+  }
+}
+
 @media screen and (max-width:400px) {
   #container {
     bottom: 400px;
