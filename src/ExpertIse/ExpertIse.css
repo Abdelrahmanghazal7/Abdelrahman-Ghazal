@@ -256,12 +256,12 @@
 @media (max-width: 530px) {
 
     .circle {
-        margin-left: -5px;
+        margin-left: -6px;
     }
 
     .bref:after {
        top: 300px;
-       height: 50px;
+       height: 30px;
     }
 
     #lol2 p {
