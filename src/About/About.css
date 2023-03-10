@@ -45,6 +45,12 @@
   margin-left: 50px;
 }
 
+@media screen and (max-width:500px) {
+  .about-descr .p-heading {
+    font-size: 27px;
+  }
+}
+
 @media (max-width: 480px) {
 
   .div-img-bg .about-img img {

@@ -103,7 +103,7 @@ a {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
   .dropdown-center {
     right: 145px;
