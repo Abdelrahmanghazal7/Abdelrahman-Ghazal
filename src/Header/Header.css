@@ -194,27 +194,8 @@ header::after {
 
 @media screen and (max-width:500px) {
   header {
-    background-position: -480px;
+    height: 80vh;
   }
-
-  .header-content h1 {
-    font-size: 35px;
-  }
-
-  .content {
-    margin-top: 180px;
-  }
-
-  header::before {
-    height: 300px;
-    top: -10px;
-  }
-  
-  header::after {
-    height: 300px;
-    bottom: -160px;
-  }
-
 }
 
 @media screen and (max-width:450px) {
