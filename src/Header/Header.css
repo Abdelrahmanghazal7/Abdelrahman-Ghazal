@@ -194,8 +194,7 @@ header::after {
 
 @media screen and (max-width:500px) {
   header {
-    background-position: -280px;
-    margin-left: 100px;
+    background-position: 0;
     height: 89vh;
   }
 }
