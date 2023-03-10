@@ -138,7 +138,7 @@
 @media screen and (max-width: 480px) {
 
     .counter::before {
-        height: 31%;
+        height: 21%;
     }
 
 }
