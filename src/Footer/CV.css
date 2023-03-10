@@ -68,15 +68,9 @@
 
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:500px) {
   #container {
-margin-top: 50px;
-  }
-}
-
-@media screen and (max-width:400px) {
-  #container {
-    bottom: 400px;
+    bottom: 200px;
   }
 }
 
