@@ -135,18 +135,10 @@
     }
 }
 
-@media screen and (min-width: 481px)  and (max-width: 530px) {
-
-    .counter::before {
-        height: 30%;
-    }
-
-}
-
 @media screen and (max-width: 480px) {
 
     .counter::before {
-        height: 21%;
+        height: 31%;
     }
 
 }
