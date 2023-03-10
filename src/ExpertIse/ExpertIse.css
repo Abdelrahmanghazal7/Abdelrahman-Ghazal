@@ -252,20 +252,20 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 530px) {
 
     .circle {
-        left: 287px;
+        left: 200px;
         top: 75px;
     }
 
     .bref:after {
-        margin-top: -200px;
+        margin-top: 100px;
         height: 70px;
     }
 
     #lol2 p {
-        max-width: 100px;
+        max-width: 200px;
     }
 
 }
