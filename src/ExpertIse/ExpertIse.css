@@ -252,6 +252,13 @@
     }
 }
 
+@media (max-width: 500px) {
+
+    .circle {
+        left: 378px;
+    }
+}
+
 @media (max-width: 480px) {
 
     .elementor-heading-title {
