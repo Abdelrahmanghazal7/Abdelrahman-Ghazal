@@ -121,8 +121,13 @@
   }
 
   .services-block .i {
-    margin-left: 185px;
+    margin-left: 220px;
   }
+
+  .services-block p {
+    margin-left: 80px;
+  }
+
 }
 
 @media (max-width: 415px) {
@@ -205,4 +210,11 @@
   font-size: 15px;
 }
 
+}
+
+@media (max-width: 240px) {
+
+  .services-block .i {
+    margin-left: 110px;
+  }
 }

@@ -126,25 +126,31 @@
 
 @media (max-width: 480px) {
 
+    #portfolio {
+        margin-top: -90px;
+    }
+
     .view {
         padding: 15px 24px;
-        margin-left: 180px;
-        margin-top: -410px;
+        margin-left: -50px;
+        margin-top: -450px;
     }
 
     #arrow {
         width: 120px;
-        margin-left: 250px;
-        margin-top: -900px;
+        margin-left: 290px;
+        margin-top: -950px;
     }
 
     .head {
-        font-size: 110px;
-        margin-left: 0;
+        font-size: 140px;
+        margin-left: 70px;
     }
 
     .work {
-        margin-left: 0;
+        margin-left: -40px;
+        max-width: 400px;
+        padding-bottom: 70px;
     }
 
     .dire {
@@ -155,7 +161,7 @@
 
 @media (max-width: 414px) {
     #portfolio {
-        padding-top: 80px;
+        padding-top: 20px;
         padding-bottom: 10px;
         margin-top: -10px;
     }
@@ -163,23 +169,24 @@
     .view {
         padding: 15px 10px;
         letter-spacing: 2px;
-        font-size: 15px;
-        left: 20px;
-        margin-top: -420px;
+        font-size: 19px;
+        left: 270px;
+        margin-top: -490px;
     }
 
     #arrow {
-        margin-left: 250px;
-        margin-top: -910px;
+        margin-left: 260px;
+        margin-top: -1020px;
     }
 
     .head {
-        font-size: 110px;
+        font-size: 140px;
         margin-left: 0;
     }
 
     .work {
-        margin-left: 0;
+        margin-left: -110px;
+        max-width: 370px;
     }
 
     .dire {
@@ -194,12 +201,59 @@
 @media (max-width: 412px) {
     #portfolio {
         padding-top: 60px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     #arrow {
         margin-left: 240px;
         margin-top: -910px;
+    }
+
+}
+
+@media (max-width: 393px) {
+
+    #portfolio {
+        margin-top: -90px;
+    }
+
+    .view {
+        padding: 15px 15px;
+        margin-left: -70px;
+        margin-top: -470px;
+        font-size: 17px;
+    }
+
+    #arrow {
+        width: 120px;
+        margin-left: 250px;
+        margin-top: -990px;
+    }
+
+    .head {
+        font-size: 130px;
+        margin-left: 0;
+    }
+
+    .work {
+        margin-left: -120px;
+        max-width: 370px;
+        padding-bottom: 70px;
+    }
+
+    .dire {
+        margin-top: 0;
+    }
+}
+
+
+@media (max-width: 390px) {
+
+    .view {
+        padding: 15px 18px;
+        margin-left: -70px;
+        margin-top: -470px;
+        font-size: 15px;
     }
 
 }
@@ -226,6 +280,42 @@
     }
 }
 
+@media (max-width: 375px) {
+
+    #portfolio {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .view {
+        padding: 15px;
+        margin-left: 170px;
+        margin-top: -450px;
+    }
+
+    #arrow {
+        width: 120px;
+        margin-left: 220px;
+        margin-top: -970px;
+    }
+
+    .head {
+        font-size: 110px;
+        margin-left: 0;
+    }
+
+    .work {
+        margin-left: 0;
+        max-width: 370px;
+        padding-bottom: 70px;
+        font-size: 19px;
+    }
+
+    .dire {
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 360px) {
 
     .view {
@@ -241,21 +331,56 @@
 
 }
 
+@media (max-width: 353px) {
+
+    #portfolio {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .view {
+        padding: 15px;
+        margin-left: 170px;
+        margin-top: -450px;
+    }
+
+    #arrow {
+        width: 120px;
+        margin-left: 220px;
+        margin-top: -970px;
+    }
+
+    .head {
+        font-size: 110px;
+        margin-left: 0;
+    }
+
+    .work {
+        margin-left: 0;
+        max-width: 370px;
+        padding-bottom: 70px;
+        font-size: 19px;
+    }
+
+    .dire {
+        margin-top: 0;
+    }
+}
 
 @media (max-width: 320px) {
 
     .view {
-        left: -20px;
+        left: -10px;
         padding: 15px 10px;
         font-size: 12px;
-        margin-top: -370px;
+        margin-top: -440px;
         font-weight: 900;
     }
 
     #arrow {
         width: 120px;
         margin-left: 180px;
-        margin-top: -800px;
+        margin-top: -930px;
     }
 
     
@@ -298,6 +423,39 @@
 
     .work {
         font-size: 15px;
+    }
+
+}
+
+@media (max-width: 240px) {
+
+    #portfolio {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .head {
+        color: black;
+        font-family: "Poppins", Sans-serif;
+        font-size: 70px;
+        margin-left: 0;
+    }
+
+    .view {
+        left: -50px;
+        padding: 15px 10px;
+        font-size: 7px;
+        margin-top: -390px;
+    }
+
+    #arrow {
+        width: 70px;
+        margin-left: 140px;
+        margin-top: -770px;
+    }
+
+    .work {
+        font-size: 12px;
     }
 
 }

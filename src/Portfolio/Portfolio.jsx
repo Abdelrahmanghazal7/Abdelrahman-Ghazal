@@ -317,7 +317,7 @@ const Portfolio = () => {
               </div>
               <div data-aos="fade-up" className="projects__row">
                 <div className="projects__row-img-cont">
-                  <a href="https://commerce-shop-react.vercel.app/"><img
+                  <a href="https://consulting-company.vercel.app/"><img
                     src="images/portfolio/13.png"
                     alt="Software Screenshot"
                     className="projects__row-img"
@@ -334,7 +334,7 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <a className='btn--med btn--theme dynamicBgClr'
-                      href='https://commerce-shop-react.vercel.app/' target='_blank' rel="noreferrer">Consulting-Company</a>
+                      href='https://consulting-company.vercel.app/' target='_blank' rel="noreferrer">Consulting-Company</a>
                   </div>
                 </div>
               </div>

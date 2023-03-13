@@ -48,7 +48,7 @@
 
 .card-text {
     /* font-family: cursive; */
-    font-family: 'Font Awesome 5 Free';
+    font-family: monospace;
     font-weight: 400;
     line-height: 1.4em;
     color: #999999;
@@ -283,13 +283,13 @@ font-size: 13px;
     }
 
     .circle {
-        left: 297px;
+        left: 334px;
         top: 75px;
     }
 
     .bref:after {
-        margin-top: -100px;
-        height: 70px;
+        margin-top: -150px;
+        height: 50px;
     }
 
     #lol1 {
@@ -300,13 +300,21 @@ font-size: 13px;
         margin-left: -20px;
     }
 
+    #lol2 p {
+        max-width: 300px;
+    }
+
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 414px) {
 
     #expertse {
         margin-top: -40px;
+    }
+
+    .circle {
+        left: 302px;
     }
 
     #lol1 p {
@@ -314,8 +322,8 @@ font-size: 13px;
     }
 
     .bref:after {
-        margin-top: -140px;
-        height: 110px;
+        margin-top: -150px;
+        height: 70px;
     }
 }
 
@@ -336,6 +344,32 @@ font-size: 13px;
 
 }
 
+@media (max-width: 393px) {
+
+    .circle {
+        left: 281px;
+    }
+
+    .bref:after {
+        margin-top: -150px;
+        height: 80px;
+    }
+
+    .elementor-heading-title {
+        font-size: 55px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .bref:after {
+        margin-top: -155px;
+        height: 90px;
+    }
+
+}
+
 @media (max-width: 385px) {
 
     .circle {
@@ -348,12 +382,12 @@ font-size: 13px;
 @media (max-width: 375px) {
 
     .circle {
-        left: 272px;
+        left: 275px;
     }
 
     .bref:after {
-        margin-top: -160px;
-        height: 120px;
+        margin-top: -165px;
+        height: 70px;
     }
 
     #lol1 p {
@@ -363,16 +397,13 @@ font-size: 13px;
     .card-title {
         font-size: 25px;
     }
-    
 }
 
 @media (max-width: 360px) {
 
-
     #expertse {
         margin-bottom: -50px;
     }
-
 
     .elementor-heading-title {
         font-size: 50px;
@@ -404,6 +435,14 @@ font-size: 13px;
     }
 }
 
+@media (max-width: 353px) {
+
+    .bref:after {
+        margin-top: -165px;
+        height: 90px;
+    }
+
+}
 
 @media (max-width: 325px) {
 
@@ -437,6 +476,20 @@ font-size: 13px;
    
   }  
 
+@media (max-width: 325px) {
+
+    .circle {
+        left: 234px;
+    }
+
+    .bref:after {
+        margin-top: -170px;
+        height: 130px;
+    }
+
+  }  
+
+
 @media (max-width: 300px) {
 
     #expertse {
@@ -466,6 +519,47 @@ font-size: 13px;
 
     .card-text {
         font-size: 12px;
+    }
+
+    #lol1 {
+        margin-left: 70px;
+    }
+
+    #lol1 p {
+        max-width: 190px;
+    }
+}
+
+
+@media (max-width: 240px) {
+
+    #expertse {
+        margin-bottom: -50px;
+    }
+
+    .elementor-heading-title {
+        font-size: 30px;
+        padding-top: 73px;
+    }
+
+    .circle {
+        left: 169px;
+        top: 75px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .bref:after {
+        margin-top: -190px;
+        height: 90px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 10px;
     }
 
     #lol1 {

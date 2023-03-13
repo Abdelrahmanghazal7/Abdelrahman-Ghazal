@@ -92,8 +92,9 @@ padding-top: 40px;
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:353px) {
   #container {
+    bottom:350px;
     right: -45px;
     width: 90px;
   }
@@ -112,8 +113,29 @@ padding-top: 40px;
 
 }
 
+@media screen and (max-width:320px) {
+  #container {
+    bottom:300px;
+  }
+
+}
+
 @media screen and (max-width:240px) {
   #container {
-    bottom:110px;
+    bottom:130px;
+    right: -35px;
+    width: 70px;
   }
+
+  .btn-upload {
+    height: 40px;
+  }  
+
+  .fa-download{
+    margin-left: -5px;
+  }
+
+  .fa-download:before {
+    font-size: 20px;
+    }   
 }

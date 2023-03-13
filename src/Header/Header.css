@@ -236,14 +236,18 @@ header::after {
   .header-content h1 {
     font-size: 25px;
   }
-
 }
 
 @media screen and (max-width:412px) {
   header {
     background-position: -500px;
   }
+}
 
+@media screen and (max-width:393px) {
+  header {
+    background-position: -600px;
+  }
 }
 
 @media screen and (max-width:389px) {
@@ -282,6 +286,12 @@ header::after {
 
   .header-content p {
     font-size: 11px;
+  }
+}
+
+@media screen and (max-width:353px) {
+  header {
+    background-position: -600px;
   }
 }
 
