@@ -84,6 +84,14 @@
 	}
 }
 
+@media screen and (max-width:1024px) {
+
+	.box {
+		top: 3700px;
+	}
+
+}
+
 @media screen and (max-width:920px) {
 
 	.box {

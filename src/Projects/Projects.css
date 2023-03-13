@@ -81,6 +81,29 @@
     }
 }
 
+@media (max-width: 768px) {
+
+.work {
+    margin-left: 120px;
+}
+
+#arrow {
+    width: 220px;
+    margin-left: 140px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    rotate: -10deg;
+}
+
+.view {
+    padding: 19px 27px;
+    font-size: 24px;
+    left: 80px;
+    margin-top: 50px;
+}
+
+}
+
 @media (max-width: 712px) {
 
     .view {
@@ -121,6 +144,13 @@
         width: 150px;
         margin-left: 350px;
         margin-top: -1170px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .work {
+        max-width: 400px;
     }
 }
 
@@ -205,8 +235,8 @@
     }
 
     #arrow {
-        margin-left: 240px;
-        margin-top: -910px;
+        margin-left: 260px;
+        margin-top: -1030px;
     }
 
 }
@@ -320,12 +350,12 @@
 
     .view {
         left: 10px;
-        margin-top: -400px;
+        margin-top: -440px;
     }
 
     #arrow {
         margin-left: 220px;
-        margin-top: -850px;
+        margin-top: -970px;
         rotate: -10deg;
     }
 
@@ -427,7 +457,8 @@
 
 }
 
-@media (max-width: 240px) {
+
+@media (max-width: 280px) {
 
     #portfolio {
         padding-bottom: 100px;
@@ -435,8 +466,32 @@
     }
 
     .head {
-        color: black;
-        font-family: "Poppins", Sans-serif;
+        font-size: 90px;
+        margin-left: 0;
+    }
+
+    .view {
+        left: -10px;
+        padding: 15px 10px;
+        font-size: 7px;
+        margin-top: -350px;
+    }
+
+    #arrow {
+        width: 70px;
+        margin-left: 180px;
+        margin-top: -690px;
+    }
+
+    .work {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 240px) {
+
+    .head {
         font-size: 70px;
         margin-left: 0;
     }

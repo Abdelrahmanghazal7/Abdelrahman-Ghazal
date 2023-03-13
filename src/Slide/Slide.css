@@ -54,17 +54,17 @@
   .services-block .i {
     margin-left: 150px;
   }
+
+  .services-block p {
+    position: relative;
+    left: -20px;
+  }
 }
 
 @media (max-width: 920px) {
 
   .services-block .i {
     margin-left: 130px;
-  }
-
-  .services-block p {
-    position: relative;
-    left: -20px;
   }
 
 }
@@ -112,6 +112,12 @@
   }
 }
 
+@media (max-width: 540px) {
+  .services-block .i {
+  margin-left: 115px;
+}
+}
+
 @media (max-width: 480px) {
 
   #services {
@@ -138,6 +144,13 @@
 
   .services-block .i {
     margin-left: 190px;
+  }
+}
+
+@media (max-width: 411px) {
+
+  .services-block .i {
+    margin-left: 180px;
   }
 }
 

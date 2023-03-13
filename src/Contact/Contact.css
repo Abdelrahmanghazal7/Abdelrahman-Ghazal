@@ -193,12 +193,12 @@
 }
 
 @media only screen and (min-width:540px) and (max-width:540px) {
+  #contact {
+    margin-top: -100px;
+  }  
+  
   .botn {
     right: 5px;
-  }
-
-  .heading-sec__sub {
-    margin-bottom: 280px;
   }
 
   .heading-sec__main::after {
@@ -354,6 +354,19 @@
   .heading-sec__main::after {
     transform: translatey(1300%);
     left: 41%;
+  }
+}
+
+@media screen and (max-width:280px) {
+  .botn {
+    right: 25px;
+  }
+
+  .heading-sec__main::after {
+    transform: translatey(1600%);
+    left: 43%;
+    height: 6px;
+    width: 2.5rem;
   }
 }
 

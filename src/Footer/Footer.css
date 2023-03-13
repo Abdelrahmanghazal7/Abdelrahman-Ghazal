@@ -189,6 +189,12 @@ footer p {
   }
 }
 
+@media (max-width: 412px) {
+  .conect {
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width:395px) {
 
   .conect {
@@ -404,6 +410,36 @@ footer p {
 
   .conect {
     margin-left: 5px;
+  }
+
+}
+
+
+@media screen and (max-width:280px) {
+
+  .conect {
+    margin-left: 10px;
+  }
+
+  .social {
+    margin-left: 63px;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-bottom: -10px;
+  }
+
+  footer .icons {
+    margin-left: 19px;
+  }
+
+  footer .icons i {
+    font-size: 23px;
+  }
+ 
+  .splash {
+    margin-left: 54px;
+    margin-top: -25px;
+    width: 70px;
   }
 
 }

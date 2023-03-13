@@ -41,10 +41,18 @@
   transform: translateY(0.2em);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 912px) {
 
   #container {
     bottom: 600px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #container {
+    bottom: 450px;
   }
 
 }
@@ -68,13 +76,21 @@
 
 }
 
+@media screen and (max-width: 540px) {
+
+  #container {
+    bottom: 300px;
+  }
+
+}
+
 @media screen and (max-width:530px) {
   #container {
 padding-top: 40px;
   }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:412px) {
   #container {
     bottom: 400px;
   }
