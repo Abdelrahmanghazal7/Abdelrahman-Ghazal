@@ -321,7 +321,11 @@ header::after {
   }
 
   .header-content p {
-    font-size: 2px;
+    font-size: 7px;
+  }
+
+  .content {
+    margin-top: -20px;
   }
 }
 
