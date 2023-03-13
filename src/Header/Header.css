@@ -305,7 +305,7 @@ header::after {
 
 @media screen and (max-width:360px) {
   header {
-    background-position: -500px;
+    background-position: -300px;
   }
 
   header::after {
