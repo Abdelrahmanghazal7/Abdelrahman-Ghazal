@@ -313,15 +313,15 @@ header::after {
   }
 
   .header-content h1 {
-    font-size: 17px;
-  }
-
-  .header-content .list-social li .icxn {
     font-size: 20px;
   }
 
+  .header-content .list-social li .icxn {
+    font-size: 30px;
+  }
+
   .header-content p {
-    font-size: 11px;
+    font-size: 2px;
   }
 }
 
