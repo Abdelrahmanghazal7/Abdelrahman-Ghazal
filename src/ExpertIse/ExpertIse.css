@@ -403,6 +403,13 @@ font-size: 13px;
     }
 }
 
+@media (max-width: 384px) {
+
+    .circle {
+        left: 279px;
+    }
+}
+
 @media (max-width: 375px) {
 
     .circle {
@@ -574,7 +581,7 @@ font-size: 13px;
 
     .bref:after {
         margin-top: -190px;
-        height: 90px;
+        height: 120px;
     }
 
     .card-title {
@@ -591,5 +598,9 @@ font-size: 13px;
 
     #lol1 p {
         max-width: 190px;
+    }
+
+    #lol2 p {
+        max-width: 110px;
     }
 }

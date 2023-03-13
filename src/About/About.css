@@ -80,6 +80,13 @@
   }
 }
 
+@media screen and (max-width:360px){
+
+  .div-img-bg .about-img img {
+    height: 300px;
+  }
+  }
+
 @media (max-width: 325px) {
 
   .about-descr .p-heading {

@@ -116,6 +116,14 @@
 
 }
 
+@media screen and (max-width:640px) {
+
+	.box {
+		top: 5500px;
+	}
+
+}
+
 @media screen and (max-width:600px) {
 
 	.box {
@@ -142,6 +150,13 @@
 
 	.box {
 		top: 5500px;
+	}
+}
+
+@media screen and (max-width:360px) {
+
+	.box {
+		top: 5100px;
 	}
 }
 
